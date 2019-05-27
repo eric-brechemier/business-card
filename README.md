@@ -31,6 +31,23 @@ now become outdated:
 
 [Skype dumped me]: https://github.com/eric-brechemier/how-i-replaced-skype-with-twilio/issues/1
 
+## Design
+
+The front of the card features a fractal shape called [Sierpiński Sieve][]
+or [Sierpiński triangle][]. It can be drawn in many different ways;
+here I chose to subdivide each triangle by joining the middle of each side.
+
+The back of the card reveals the continuation of the fractal shape,
+with 5 lines of text for my details nested in negative space in the
+middle of the fractal. But only half of the fractal shape is visible
+on that side of the card, because in its growth, it has already
+expanded to twice the length of the card. This particular cropping,
+which leaves symmetrical shapes missing on the top and bottom of the card,
+adds a layer to the visual puzzle started on the front of the card.
+
+[Sierpiński Sieve]: http://mathworld.wolfram.com/SierpinskiSieve.html
+[Sierpiński triangle]: https://en.wikipedia.org/wiki/Sierpi%C5%84ski_triangle
+
 ## Dimensions
 
 After reviewing the [various sizes][] of business cards commonly found in
