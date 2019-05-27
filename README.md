@@ -26,7 +26,7 @@ apart from my name has now become outdated:
 * the card includes my Skype id, but I have stopped using Skype
   after [Skype dumped me][]
 
-* my website address starts with `http` while today'sWeb requires `https`
+* my website address starts with `http` while today's Web requires `https`
 
 [Skype dumped me]: https://github.com/eric-brechemier/how-i-replaced-skype-with-twilio/issues/1
 
