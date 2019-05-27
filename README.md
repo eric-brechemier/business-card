@@ -3,10 +3,11 @@ My new business card (2019)
 
 ## Rationale
 
-I have been using the same business card design since 2007. I had voluntarily
-left out my phone number and postal address, to make the cards timeless.
-Still, twelve years is a long time, and everything that appears on the card
-apart from my name has now become outdated:
+I have been using the same business card design from 2007 to 2019.
+I had voluntarily left out my phone number and postal address,
+to make the cards timeless. Still, twelve years is a long time,
+and everything that appears on the card apart from my name has
+now become outdated:
 
 * after 15 years of work in "Software Design and Development",
   I am now becoming a graphic designer as well as a programmer
