@@ -1,0 +1,114 @@
+<?xml version="1.0"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  width="53.98mm"
+  height="85.60mm"
+  viewBox="0 0 1000 2000"
+  preserveAspectRatio="none"
+>
+  <title xml:lang="en">Back of Eric Bréchemier's Business Card</title>
+  <desc xml:lang="en">
+    The front of the card features a fractal shape called
+    Sierpiński Sieve or Sierpiński triangle.
+    It can be drawn in many different ways;
+    here I chose to subdivide each triangle
+    by joining the middle of each side.
+
+    The back of the card reveals the continuation of the fractal shape,
+    with 5 lines of text for my details nested in negative space in the
+    middle of the fractal. But only half of the fractal shape is visible
+    on that side of the card, because in its growth, it has already
+    expanded to twice the length of the card. This particular cropping,
+    which leaves symmetrical shapes missing on the top and bottom of the card,
+    adds a layer to the visual puzzle started on the front of the card.
+  </desc>
+  <style type="text/css">
+    .empty {
+      fill: none;
+    }
+    .triangle {
+      stroke: black;
+      vector-effect: non-scaling-stroke;
+      stroke-width: 0.25mm;
+      stroke-linejoin: bevel;
+    }
+    .text {
+      font-family: "Gill Sans";
+      text-anchor: end;
+      dominant-baseline: middle;
+    }
+    .name {
+      font-variant: small-caps;
+    }
+    .name, .email { font-size: 24mm; }
+    .phone        { font-size: 18mm; }
+    .url          { font-size: 18mm; }
+    .url-small    { font-size: 13mm; }
+    .url-end { text-anchor: start; }
+    .frame {
+      stroke: #aaa;
+      stroke-width: 4;
+    }
+  </style>
+  <defs>
+    <polygon id="triangle" class="empty triangle"
+      points="0,0 1000,1000 0,2000"
+    />
+    <polygon id="triangle1" class="empty triangle"
+      points="500,500 500,1500 0,1000"
+    />
+    <use id="triangle2" xlink:href="#triangle1" transform="scale(0.5)" />
+    <use id="triangle3" xlink:href="#triangle2" transform="scale(0.5)" />
+    <use id="triangle4" xlink:href="#triangle3" transform="scale(0.5)" />
+    <use id="triangle5" xlink:href="#triangle4" transform="scale(0.5)" />
+    <g id="sierpinski">
+      <use xlink:href="#triangle" />
+      <use xlink:href="#triangle1" />
+      <g id="quarter1">
+        <use xlink:href="#triangle2" />
+        <g id="quarter2">
+          <use xlink:href="#triangle3" />
+          <g id="quarter3">
+            <use xlink:href="#triangle4" />
+            <!-- and so on... but it gets too heavy
+            <g id="quarter4">
+              <use xlink:href="#triangle5" />
+            </g>
+            <use xlink:href="#quarter4" transform="translate(0,125)" />
+            <use xlink:href="#quarter4" transform="translate(62.5,62.5)" />
+            -->
+          </g>
+          <use xlink:href="#quarter3" transform="translate(0,250)" />
+          <use xlink:href="#quarter3" transform="translate(125,125)" />
+        </g>
+        <use xlink:href="#quarter2" transform="translate(0,500)" />
+        <use xlink:href="#quarter2" transform="translate(250,250)" />
+      </g>
+      <use xlink:href="#quarter1" transform="translate(0,1000)" />
+      <use xlink:href="#quarter1" transform="translate(500,500)" />
+    </g>
+  </defs>
+  <rect
+    x="0" y="0" width="1000" height="2000"
+    class="empty frame"
+  />
+  <use xlink:href="#sierpinski" transform="translate(0,-1000)" />
+  <use xlink:href="#sierpinski" transform="translate(0,1000)" />
+  <text x="980" y="775" class="name text">Eric Bréchemier</text>
+  <text x="980" y="900" class="email text">eric@coding.graphics</text>
+  <text x="980" y="1125" textLength="700"
+    class="usa phone text">+1 (272) 999-1984 (US)</text>
+  <text x="980" y="1225" textLength="700"
+    class="fra phone text">+33 (0)644-643-642 (FR)</text>
+  <text x="980" y="1500" class="url url-small text"
+    >https://coding.graphics</text>
+  <!--
+  <text x="0" y="0" class="url text"
+    transform="translate(525,1475) rotate(45)">https://</text>
+  <text x="525" y="1500" class="url url-end text">coding.graphics</text>
+  -->
+  <!--
+  <text x="0" y="0" class="url text"
+    transform="translate(980,1900) rotate(45)">https://coding.graphics</text>
+  -->
+</svg>
