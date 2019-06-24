@@ -66,23 +66,24 @@ which corresponds to the following ratio:
 | **width**  | `(3 ⅜) x 8 = 24 + 3` |  `=`  |    27 |
 | **height** | `(2 ⅛) x 8 = 16 + 1` |  `=`  |    17 |
 
-which I multiplied by `200` to get dimensions of the view box
+which I multiplied by `400` to get dimensions of the view box
 in abstract SVG units which preserve the credit card ratio:
 
-|            |`ratio x 200` |  `=`  | SVG units |
+|            |`ratio x 400` |  `=`  | SVG units |
 | ---------: | -----------: | :---: | --------: |
-| **width**  |   `27 x 200` |  `=`  |      5400 |
-| **height** |   `17 x 200` |  `=`  |      3400 |
+| **width**  |   `27 x 400` |  `=`  |     10800 |
+| **height** |   `17 x 400` |  `=`  |      6800 |
 
-The factor `x200` was chosen to still have dimensions
+The factor `x400` was chosen to still have dimensions
 expressed in round numbers after successive subdivisions:
 
 | subdivision | factor |
 | ----------: | -----: |
-|           1 | `x200` |
-|           ½ | `x100` | 
-|           ¼ |  `x50` |
-|           ⅛ |  `x25` |
+|         `1` | `x400` |
+|       `1/2` | `x200` | 
+|       `1/4` | `x100` |
+|       `1/8` |  `x50` |
+|      `1/16` |  `x25` | 
 
 [various sizes]: https://en.wikipedia.org/wiki/Business_card#Dimensions
 [credit card size]: https://en.wikipedia.org/wiki/Credit_card#Technical_specifications
