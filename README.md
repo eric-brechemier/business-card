@@ -52,7 +52,37 @@ adds a layer to the visual puzzle started on the front of the card.
 
 After reviewing the [various sizes][] of business cards commonly found in
 different countries, I chose the [credit card size][] for the convenience
-of storage in a credit card holder.
+of storage in a credit card holder:
+
+|            | inches |    mm |
+| ---------: |   ---: | ----: |
+| **width**  |    3 ⅜ | 85.60 |
+| **height** |    2 ⅛ | 53.98 |
+
+which corresponds to the following ratio:
+
+|            |         `inches x 8` |  `=`  | ratio |
+| ---------: | -------------------: | :---: | ----: |
+| **width**  | `(3 ⅜) x 8 = 24 + 3` |  `=`  |    27 |
+| **height** | `(2 ⅛) x 8 = 16 + 1` |  `=`  |    17 |
+
+which I multiplied by `200` to get dimensions of the view box
+in abstract SVG units which preserve the credit card ratio:
+
+|            |`ratio x 200` |  `=`  | SVG units |
+| ---------: | -----------: | :---: | --------: |
+| **width**  |   `27 x 200` |  `=`  |      5400 |
+| **height** |   `17 x 200` |  `=`  |      3400 |
+
+The factor `x200` was chosen to still have dimensions
+expressed in round numbers after successive subdivisions:
+
+| subdivision | factor |
+| ----------: | -----: |
+|           1 | `x200` |
+|           ½ | `x100` | 
+|           ¼ |  `x50` |
+|           ⅛ |  `x25` |
 
 [various sizes]: https://en.wikipedia.org/wiki/Business_card#Dimensions
 [credit card size]: https://en.wikipedia.org/wiki/Credit_card#Technical_specifications
