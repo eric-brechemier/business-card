@@ -1,0 +1,71 @@
+<?xml version="1.0"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+>
+  <title xml:lang="en">Sierpiński Sieve or Sierpiński triangle</title>
+  <desc xml:lang="en">
+    This fractal shape, called Sierpiński Sieve or Sierpiński triangle,
+    can be drawn in many different ways; here I chose to subdivide each
+    triangle by joining the middle of each side.
+
+    It is designed to be drawn on a target canvas of
+    6800x10800 units, which has the same ratio as a
+    standard credit card in vertical orientation
+    (2⅛ inches x 3⅜ inches or 53.98mm x 85.60mm).
+  </desc>
+  <!--
+  The shape is defined with the id "sierpinski" and can be referenced
+  from an external file at the root of the project with:
+
+      <use xlink:href="sierpinski/sierpinski.svg#sierpinski" />
+
+  The associated styles are defined in a separate CSS style sheet,
+  which must be loaded separately, by adding the following processing
+  instruction right after the xml declaration at the top of the host
+  document:
+
+      <?xml-stylesheet href="sierpinski/styles.css" type="text/css"?>
+
+  The reason for this is that <use> only copies the SVG structure into
+  the shadow DOM of the host document, without applying any of the styles
+  from the referenced SVG document.
+  -->
+  <defs>
+    <polygon id="triangle" class="empty triangle"
+      points="0,0 6800,5400 0,10800"
+    />
+    <polygon id="triangle1" class="empty triangle"
+      points="3400,2700 3400,8100 0,5400"
+    />
+    <use id="triangle2" xlink:href="#triangle1" transform="scale(0.5)" />
+    <use id="triangle3" xlink:href="#triangle2" transform="scale(0.5)" />
+    <use id="triangle4" xlink:href="#triangle3" transform="scale(0.5)" />
+    <use id="triangle5" xlink:href="#triangle4" transform="scale(0.5)" />
+    <g id="sierpinski">
+      <use xlink:href="#triangle" />
+      <use xlink:href="#triangle1" />
+      <g id="quarter1">
+        <use xlink:href="#triangle2" />
+        <g id="quarter2">
+          <use xlink:href="#triangle3" />
+          <g id="quarter3">
+            <use xlink:href="#triangle4" />
+            <!-- and so on... but it gets too heavy
+            <g id="quarter4">
+              <use xlink:href="#triangle5" />
+            </g>
+            <use xlink:href="#quarter4" transform="translate(0,675)" />
+            <use xlink:href="#quarter4" transform="translate(425,337.5)" />
+            -->
+          </g>
+          <use xlink:href="#quarter3" transform="translate(0,1350)" />
+          <use xlink:href="#quarter3" transform="translate(850,675)" />
+        </g>
+        <use xlink:href="#quarter2" transform="translate(0,2700)" />
+        <use xlink:href="#quarter2" transform="translate(1700,1350)" />
+      </g>
+      <use xlink:href="#quarter1" transform="translate(0,5400)" />
+      <use xlink:href="#quarter1" transform="translate(3400,2700)" />
+    </g>
+  </defs>
+</svg>

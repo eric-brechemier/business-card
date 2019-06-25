@@ -10,48 +10,7 @@
   <desc xml:lang="en">
     The front of the card features a fractal shape called
     Sierpiński Sieve or Sierpiński triangle.
-    It can be drawn in many different ways;
-    here I chose to subdivide each triangle
-    by joining the middle of each side.
   </desc>
-  <defs>
-    <polygon id="triangle" class="empty triangle"
-      points="0,0 6800,5400 0,10800"
-    />
-    <polygon id="triangle1" class="empty triangle"
-      points="3400,2700 3400,8100 0,5400"
-    />
-    <use id="triangle2" xlink:href="#triangle1" transform="scale(0.5)" />
-    <use id="triangle3" xlink:href="#triangle2" transform="scale(0.5)" />
-    <use id="triangle4" xlink:href="#triangle3" transform="scale(0.5)" />
-    <use id="triangle5" xlink:href="#triangle4" transform="scale(0.5)" />
-    <g id="sierpinski">
-      <use xlink:href="#triangle" />
-      <use xlink:href="#triangle1" />
-      <g id="quarter1">
-        <use xlink:href="#triangle2" />
-        <g id="quarter2">
-          <use xlink:href="#triangle3" />
-          <g id="quarter3">
-            <use xlink:href="#triangle4" />
-            <!-- and so on... but it gets too heavy
-            <g id="quarter4">
-              <use xlink:href="#triangle5" />
-            </g>
-            <use xlink:href="#quarter4" transform="translate(0,675)" />
-            <use xlink:href="#quarter4" transform="translate(425,337.5)" />
-            -->
-          </g>
-          <use xlink:href="#quarter3" transform="translate(0,1350)" />
-          <use xlink:href="#quarter3" transform="translate(850,675)" />
-        </g>
-        <use xlink:href="#quarter2" transform="translate(0,2700)" />
-        <use xlink:href="#quarter2" transform="translate(1700,1350)" />
-      </g>
-      <use xlink:href="#quarter1" transform="translate(0,5400)" />
-      <use xlink:href="#quarter1" transform="translate(3400,2700)" />
-    </g>
-  </defs>
   <rect x="0" y="0" width="6800" height="10800" class="background frame" />
-  <use xlink:href="#sierpinski" />
+  <use xlink:href="sierpinski/sierpinski.svg#sierpinski" />
 </svg>
