@@ -1,4 +1,5 @@
 <?xml version="1.0"?>
+<?xml-stylesheet href="sierpinski/styles.css" type="text/css"?>
 <svg xmlns="http://www.w3.org/2000/svg"
   xmlns:xlink="http://www.w3.org/1999/xlink"
   width="53.98mm"
@@ -13,21 +14,6 @@
     here I chose to subdivide each triangle
     by joining the middle of each side.
   </desc>
-  <style type="text/css">
-    .empty, .background {
-      fill: none;
-    }
-    .frame {
-      stroke: #aaa;
-      stroke-width: 24;
-    }
-    .triangle {
-      stroke: black;
-      vector-effect: non-scaling-stroke;
-      stroke-width: 0.25mm;
-      stroke-linejoin: bevel;
-    }
-  </style>
   <defs>
     <polygon id="triangle" class="empty triangle"
       points="0,0 6800,5400 0,10800"
