@@ -14,18 +14,18 @@
     by joining the middle of each side.
   </desc>
   <style type="text/css">
-    .empty {
+    .empty, .background {
       fill: none;
+    }
+    .frame {
+      stroke: #aaa;
+      stroke-width: 24;
     }
     .triangle {
       stroke: black;
       vector-effect: non-scaling-stroke;
       stroke-width: 0.25mm;
       stroke-linejoin: bevel;
-    }
-    .frame {
-      stroke: #aaa;
-      stroke-width: 24;
     }
   </style>
   <defs>
@@ -40,7 +40,7 @@
     <use id="triangle4" xlink:href="#triangle3" transform="scale(0.5)" />
     <use id="triangle5" xlink:href="#triangle4" transform="scale(0.5)" />
   </defs>
-  <rect x="0" y="0" width="6800" height="10800" class="empty frame" />
+  <rect x="0" y="0" width="6800" height="10800" class="background frame" />
   <use xlink:href="#triangle" />
   <use xlink:href="#triangle1" />
   <g id="quarter1">

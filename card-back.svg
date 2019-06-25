@@ -22,8 +22,15 @@
     adds a layer to the visual puzzle started on the front of the card.
   </desc>
   <style type="text/css">
-    .empty {
+    .empty, .background {
       fill: none;
+    }
+    .frame {
+      stroke: #aaa;
+      stroke-width: 24;
+    }
+    text {
+      fill: black;
     }
     .triangle {
       stroke: black;
@@ -43,10 +50,6 @@
     .email     { font-size: 120mm; }
     .phone     { font-size: 106mm; }
     .url       { font-size:  96mm; }
-    .frame {
-      stroke: #aaa;
-      stroke-width: 24;
-    }
   </style>
   <defs>
     <polygon id="triangle" class="empty triangle"
@@ -86,7 +89,7 @@
       <use xlink:href="#quarter1" transform="translate(3400,2700)" />
     </g>
   </defs>
-  <rect x="0" y="0" width="6800" height="10800" class="empty frame" />
+  <rect x="0" y="0" width="6800" height="10800" class="background frame" />
   <use xlink:href="#sierpinski" transform="translate(0,-5400)" />
   <use xlink:href="#sierpinski" transform="translate(0,5400)" />
   <text x="6630" y="4050" class="name text">Eric Bréchemier</text>
