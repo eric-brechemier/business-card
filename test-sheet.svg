@@ -1,0 +1,84 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="sierpinski/styles.css" type="text/css"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  width="210mm"
+  height="297mm"
+  viewBox="0 0 210 297"
+>
+  <title xml:lang="en">
+    Test Sheet on A4 paper for different versions
+    of Eric Bréchemier's Business Card
+  </title>
+  <desc xml:lang="en">
+    This test sheet allows to print and compare several versions
+    of the card, starting with variations in colors, by printing
+    a single sheet of A4 paper.
+
+    Separate back and front sides can then be cut out and pasted
+    on cards for prototyping.
+  </desc>
+  <style type="text/css">
+    /* customize card background color through fill attribute of use element */
+    .background {
+      fill: inherit;
+    }
+
+    /* customize card border color through stroke attribute of use element */
+    .frame {
+      stroke: inherit;
+    }
+  </style>
+  <!--
+    make sure that the cards fit on A4 or US letter paper,
+    with a safe margin of 0.25in = 6.35mm
+
+    Note: the stroke is drawn half inward and half outward;
+    position and width were offset to draw the safe margins inward only.
+  -->
+  <rect id="A4" x="3.175" y="3.175" width="203.65" height="290.65"
+    stroke-width="6.35" stroke="lemonchiffon" fill="none"
+  />
+  <rect id="USletter" x="3.175" y="3.175" width="209.55" height="273.05"
+    stroke-width="6.35" stroke="azure" fill="none"
+  />
+
+  <use xlink:href="card-back.svg#card-back"
+    x="15" y="8" width="53.98" height="85.60"
+    fill="none" stroke="none" color="black"
+  />
+  <use xlink:href="card-back.svg#card-back"
+    x="75" y="8" width="53.98" height="85.60"
+    fill="none" stroke="none" color="#353232"
+  />
+  <use xlink:href="card-back.svg#card-back"
+    x="135" y="8" width="53.98" height="85.60"
+    fill="#323235" stroke="none" color="#f0f0a0"
+  />
+
+  <use xlink:href="card-front.svg#card-front"
+    x="15" y="96" width="53.98" height="85.60"
+    fill="none" stroke="none" color="black"
+  />
+  <use xlink:href="card-front.svg#card-front"
+    x="75" y="96" width="53.98" height="85.60"
+    fill="none" stroke="none" color="#353232"
+  />
+  <use xlink:href="card-front.svg#card-front"
+    x="135" y="96" width="53.98" height="85.60"
+    fill="#323235" stroke="none" color="#f0f0a0"
+  />
+
+  <use xlink:href="card-back.svg#card-back"
+    x="15" y="184" width="53.98" height="85.60"
+    fill="#dfefff" stroke="none" color="#c05000"
+  />
+  <use xlink:href="card-front.svg#card-front"
+    x="75" y="184" width="53.98" height="85.60"
+    fill="#dfefff" stroke="none" color="#c05000"
+  />
+  <use xlink:href="card-back.svg#card-back"
+    x="135" y="184" width="53.98" height="85.60"
+    fill="#f0f033" stroke="none" color="#333399"
+  />
+</svg>

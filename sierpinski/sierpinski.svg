@@ -17,7 +17,7 @@
   The shape is defined with the id "sierpinski" and can be referenced
   from an external file at the root of the project with:
 
-      <use xlink:href="sierpinski/sierpinski.svg#sierpinski" />
+      <use xlink:href="sierpinski/sierpinski.svg#sierpinski" color="black" />
 
   The associated styles are defined in a separate CSS style sheet,
   which must be loaded separately, by adding the following processing
@@ -29,6 +29,17 @@
   The reason for this is that <use> only copies the SVG structure into
   the shadow DOM of the host document, without applying any of the styles
   from the referenced SVG document.
+
+  Three colors can be customized:
+
+  1. the foreground color (text and triangle lines),
+     by setting the CSS color of the <use> element
+
+  2. the background color, by customizing the CSS fill color
+     associated with the CSS class .background
+
+  3. the color of the card border, by customizing the CSS stroke color
+     associated with the CSS class .frame
   -->
   <defs>
     <polygon id="triangle" class="empty triangle"

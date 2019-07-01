@@ -13,11 +13,11 @@
 }
 
 text {
-  fill: black;
+  fill: currentColor;
 }
 
 .triangle {
-  stroke: black;
+  stroke: currentColor;
   vector-effect: non-scaling-stroke;
   stroke-width: 0.25mm;
   stroke-linejoin: bevel;

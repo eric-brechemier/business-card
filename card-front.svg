@@ -11,6 +11,11 @@
     The front of the card features a fractal shape called
     Sierpiński Sieve or Sierpiński triangle.
   </desc>
-  <rect x="0" y="0" width="6800" height="10800" class="background frame" />
-  <use xlink:href="sierpinski/sierpinski.svg#sierpinski" />
+  <defs>
+    <symbol id="card-front" viewBox="0 0 6800 10800">
+      <rect x="0" y="0" width="6800" height="10800" class="background frame" />
+      <use xlink:href="sierpinski/sierpinski.svg#sierpinski" />
+    </symbol>
+  </defs>
+  <use xlink:href="#card-front" color="black" />
 </svg>
