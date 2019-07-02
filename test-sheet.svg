@@ -1,5 +1,4 @@
 <?xml version="1.0"?>
-<?xml-stylesheet href="sierpinski/styles.css" type="text/css"?>
 <svg xmlns="http://www.w3.org/2000/svg"
   xmlns:xlink="http://www.w3.org/1999/xlink"
   width="210mm"
@@ -19,6 +18,80 @@
     on cards for prototyping.
   </desc>
   <style type="text/css">
+    .empty, .background {
+      fill: none;
+    }
+
+    .frame {
+      stroke: #aaa;
+      stroke-width: 24;
+    }
+
+    text {
+      fill: currentColor;
+    }
+
+    .triangle {
+      stroke: currentColor;
+      vector-effect: non-scaling-stroke;
+      stroke-width: 0.25mm;
+      stroke-linejoin: bevel;
+    }
+
+    .text {
+      font-family: "Gill Sans";
+      text-anchor: end;
+      dominant-baseline: text-bottom;
+    }
+
+    .name {
+      font-variant: small-caps;
+    }
+
+    .name      { font-size: 128mm; }
+    .email     { font-size: 120mm; }
+    .phone     { font-size: 106mm; }
+    .url       { font-size:  96mm; }
+  </style>
+  <defs>
+    <polygon id="triangle" class="empty triangle"
+      points="0,0 6800,5400 0,10800"
+    />
+    <polygon id="triangle1" class="empty triangle"
+      points="3400,2700 3400,8100 0,5400"
+    />
+    <use id="triangle2" xlink:href="#triangle1" transform="scale(0.5)" />
+    <use id="triangle3" xlink:href="#triangle2" transform="scale(0.5)" />
+    <use id="triangle4" xlink:href="#triangle3" transform="scale(0.5)" />
+    <use id="triangle5" xlink:href="#triangle4" transform="scale(0.5)" />
+    <g id="sierpinski">
+      <use xlink:href="#triangle" />
+      <use xlink:href="#triangle1" />
+      <g id="quarter1">
+        <use xlink:href="#triangle2" />
+        <g id="quarter2">
+          <use xlink:href="#triangle3" />
+          <g id="quarter3">
+            <use xlink:href="#triangle4" />
+            <!-- and so on... but it gets too heavy
+            <g id="quarter4">
+              <use xlink:href="#triangle5" />
+            </g>
+            <use xlink:href="#quarter4" transform="translate(0,675)" />
+            <use xlink:href="#quarter4" transform="translate(425,337.5)" />
+            -->
+          </g>
+          <use xlink:href="#quarter3" transform="translate(0,1350)" />
+          <use xlink:href="#quarter3" transform="translate(850,675)" />
+        </g>
+        <use xlink:href="#quarter2" transform="translate(0,2700)" />
+        <use xlink:href="#quarter2" transform="translate(1700,1350)" />
+      </g>
+      <use xlink:href="#quarter1" transform="translate(0,5400)" />
+      <use xlink:href="#quarter1" transform="translate(3400,2700)" />
+    </g>
+  </defs>
+  <style type="text/css">
     /* customize card background color through fill attribute of use element */
     .background {
       fill: inherit;
@@ -29,6 +102,22 @@
       stroke: inherit;
     }
   </style>
+  <defs>
+    <symbol id="card-front" viewBox="0 0 6800 10800">
+      <rect x="0" y="0" width="6800" height="10800" class="background frame" />
+      <use xlink:href="#sierpinski" />
+    </symbol>
+    <symbol id="card-back" viewBox="0 0 6800 10800">
+      <rect x="0" y="0" width="6800" height="10800" class="background frame" />
+      <use xlink:href="#sierpinski" transform="translate(0,-5400)" />
+      <use xlink:href="#sierpinski" transform="translate(0,5400)" />
+      <text x="6630" y="4050" class="name text">Eric Bréchemier</text>
+      <text x="6630" y="4725" class="email text">eric@coding.graphics</text>
+      <text x="6630" y="6075" class="phone text">+33 (0)644-643-642 (FR)</text>
+      <text x="6630" y="6750" class="phone text">+1 (272) 999-1984 (US)</text>
+      <text x="6630" y="7425" class="url text">https://coding.graphics</text>
+    </symbol>
+  </defs>
   <!--
     make sure that the cards fit on A4 or US letter paper,
     with a safe margin of 0.25in = 6.35mm
@@ -43,41 +132,41 @@
     stroke-width="6.35" stroke="azure" fill="none"
   />
 
-  <use xlink:href="card-back.svg#card-back"
+  <use xlink:href="#card-back"
     x="15" y="8" width="53.98" height="85.60"
     fill="none" stroke="none" color="black"
   />
-  <use xlink:href="card-back.svg#card-back"
+  <use xlink:href="#card-back"
     x="75" y="8" width="53.98" height="85.60"
     fill="none" stroke="none" color="#353232"
   />
-  <use xlink:href="card-back.svg#card-back"
+  <use xlink:href="#card-back"
     x="135" y="8" width="53.98" height="85.60"
     fill="#323235" stroke="none" color="#f0f0a0"
   />
 
-  <use xlink:href="card-front.svg#card-front"
+  <use xlink:href="#card-front"
     x="15" y="96" width="53.98" height="85.60"
     fill="none" stroke="none" color="black"
   />
-  <use xlink:href="card-front.svg#card-front"
+  <use xlink:href="#card-front"
     x="75" y="96" width="53.98" height="85.60"
     fill="none" stroke="none" color="#353232"
   />
-  <use xlink:href="card-front.svg#card-front"
+  <use xlink:href="#card-front"
     x="135" y="96" width="53.98" height="85.60"
     fill="#323235" stroke="none" color="#f0f0a0"
   />
 
-  <use xlink:href="card-back.svg#card-back"
+  <use xlink:href="#card-back"
     x="15" y="184" width="53.98" height="85.60"
     fill="#dfefff" stroke="none" color="#c05000"
   />
-  <use xlink:href="card-front.svg#card-front"
+  <use xlink:href="#card-front"
     x="75" y="184" width="53.98" height="85.60"
     fill="#dfefff" stroke="none" color="#c05000"
   />
-  <use xlink:href="card-back.svg#card-back"
+  <use xlink:href="#card-back"
     x="135" y="184" width="53.98" height="85.60"
     fill="#f0f033" stroke="none" color="#333399"
   />
