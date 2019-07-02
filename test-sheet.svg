@@ -118,8 +118,15 @@
       <text x="6630" y="7425" class="url text">https://coding.graphics</text>
     </symbol>
   </defs>
-  <!--
-    make sure that the cards fit on A4 or US letter paper,
+  <style type="text/css">
+    .style1, .style2, .style3, .style4, .style5 { stroke: none; }
+
+    .style1 { fill: none; color: black; }
+    .style2 { fill: none; color: #353232; }
+    .style3 { fill: #323235; color: #f0f0a0; }
+    .style4 { fill: #dfefff; color: #c05000; }
+    .style5 { fill: #f0f033; color: #333399; }
+  </style>
     with a safe margin of 0.25in = 6.35mm
 
     Note: the stroke is drawn half inward and half outward;
@@ -132,42 +139,33 @@
     stroke-width="6.35" stroke="azure" fill="none"
   />
 
-  <use xlink:href="#card-back"
+  <use xlink:href="#card-back" class="style1"
     x="15" y="8" width="53.98" height="85.60"
-    fill="none" stroke="none" color="black"
   />
-  <use xlink:href="#card-back"
+  <use xlink:href="#card-back" class="style2"
     x="75" y="8" width="53.98" height="85.60"
-    fill="none" stroke="none" color="#353232"
   />
-  <use xlink:href="#card-back"
+  <use xlink:href="#card-back" class="style3"
     x="135" y="8" width="53.98" height="85.60"
-    fill="#323235" stroke="none" color="#f0f0a0"
   />
 
-  <use xlink:href="#card-front"
+  <use xlink:href="#card-front" class="style1"
     x="15" y="96" width="53.98" height="85.60"
-    fill="none" stroke="none" color="black"
   />
-  <use xlink:href="#card-front"
+  <use xlink:href="#card-front" class="style2"
     x="75" y="96" width="53.98" height="85.60"
-    fill="none" stroke="none" color="#353232"
   />
-  <use xlink:href="#card-front"
+  <use xlink:href="#card-front" class="style3"
     x="135" y="96" width="53.98" height="85.60"
-    fill="#323235" stroke="none" color="#f0f0a0"
   />
 
-  <use xlink:href="#card-back"
+  <use xlink:href="#card-back" class="style4"
     x="15" y="184" width="53.98" height="85.60"
-    fill="#dfefff" stroke="none" color="#c05000"
   />
-  <use xlink:href="#card-front"
+  <use xlink:href="#card-front" class="style4"
     x="75" y="184" width="53.98" height="85.60"
-    fill="#dfefff" stroke="none" color="#c05000"
   />
-  <use xlink:href="#card-back"
+  <use xlink:href="#card-back" class="style5"
     x="135" y="184" width="53.98" height="85.60"
-    fill="#f0f033" stroke="none" color="#333399"
   />
 </svg>
