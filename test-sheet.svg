@@ -118,9 +118,13 @@
   </style>
   <defs>
     <symbol id="card-front" viewBox="0 0 6800 10800">
+      <rect x="0" y="0" width="6800" height="10800" class="background" />
+      <rect x="0" y="0" width="6800" height="10800" class="empty" />
       <use xlink:href="#sierpinski" />
     </symbol>
     <symbol id="card-back" viewBox="0 0 6800 10800">
+      <rect x="0" y="0" width="6800" height="10800" class="background" />
+      <rect x="0" y="0" width="6800" height="10800" class="empty" />
       <use xlink:href="#sierpinski" transform="translate(0,-5400)" />
       <use xlink:href="#sierpinski" transform="translate(0,5400)" />
       <text x="6630" y="4050" class="name text">Eric Bréchemier</text>
