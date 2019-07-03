@@ -54,7 +54,7 @@
     .url       { font-size:  96mm; }
   </style>
   <defs>
-    <polygon id="triangle" class="empty triangle"
+    <polygon id="triangle" class="background frame"
       points="0,0 6800,5400 0,10800"
     />
     <polygon id="triangle1" class="empty triangle"
@@ -101,14 +101,17 @@
     .frame {
       stroke: inherit;
     }
+
+    /* use a single color for the text */
+    text {
+      fill: #333377;
+    }
   </style>
   <defs>
     <symbol id="card-front" viewBox="0 0 6800 10800">
-      <rect x="0" y="0" width="6800" height="10800" class="background frame" />
       <use xlink:href="#sierpinski" />
     </symbol>
     <symbol id="card-back" viewBox="0 0 6800 10800">
-      <rect x="0" y="0" width="6800" height="10800" class="background frame" />
       <use xlink:href="#sierpinski" transform="translate(0,-5400)" />
       <use xlink:href="#sierpinski" transform="translate(0,5400)" />
       <text x="6630" y="4050" class="name text">Eric Bréchemier</text>
@@ -121,11 +124,11 @@
   <style type="text/css">
     .style1, .style2, .style3, .style4, .style5 { stroke: none; }
 
-    .style1 { fill: #f0f033; color: #333399; }
-    .style2 { fill: #333; color: #ffaa33; }
-    .style3 { fill: #11ff77; color: #774422; }
-    .style4 { fill: #2277d0; color: #f0f077; }
-    .style5 { fill: #c00070; color: #dfffff; }
+    .style1 { fill: #2277d0; color: #f0f077; }
+    .style2 { fill: #f0f033; color: #333377; }
+    .style3 { fill: #c00070; color: #dfffff; }
+    .style4 { fill: #333; color: #9090f0; }
+    .style5 { fill: none; color: #333377; }
   </style>
     with a safe margin of 0.25in = 6.35mm
 
