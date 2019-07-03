@@ -121,11 +121,11 @@
   <style type="text/css">
     .style1, .style2, .style3, .style4, .style5 { stroke: none; }
 
-    .style1 { fill: none; color: black; }
-    .style2 { fill: none; color: #353232; }
-    .style3 { fill: #323235; color: #f0f0a0; }
-    .style4 { fill: #dfefff; color: #c05000; }
-    .style5 { fill: #f0f033; color: #333399; }
+    .style1 { fill: #f0f033; color: #333399; }
+    .style2 { fill: #333; color: #ffaa33; }
+    .style3 { fill: #11ff77; color: #774422; }
+    .style4 { fill: #2277d0; color: #f0f077; }
+    .style5 { fill: #c00070; color: #dfffff; }
   </style>
     with a safe margin of 0.25in = 6.35mm
 
