@@ -102,6 +102,15 @@
       stroke: inherit;
     }
 
+    /* cut triangles as see-through holes into the background */
+    .empty {
+      fill: white;
+      filter: opacity(92%);
+    }
+    .triangle {
+      stroke: none;
+    }
+
     /* use a single color for the text */
     text {
       fill: #333377;
@@ -124,11 +133,11 @@
   <style type="text/css">
     .style1, .style2, .style3, .style4, .style5 { stroke: none; }
 
-    .style1 { fill: #2277d0; color: #f0f077; }
-    .style2 { fill: #f0f033; color: #333377; }
-    .style3 { fill: #c00070; color: #dfffff; }
-    .style4 { fill: #333; color: #9090f0; }
-    .style5 { fill: none; color: #333377; }
+    .style1 { fill: #2277d0; }
+    .style2 { fill: #f0f033; }
+    .style3 { fill: #c00070; }
+    .style4 { fill: #333; }
+    .style5 { fill: #e6e6e6; }
   </style>
     with a safe margin of 0.25in = 6.35mm
 
