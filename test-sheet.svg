@@ -57,7 +57,7 @@
     <polygon id="triangle" class="background frame"
       points="0,0 6800,5400 0,10800"
     />
-    <polygon id="triangle1" class="empty triangle"
+    <polygon id="triangle1" class="triangle"
       points="3400,2700 3400,8100 0,5400"
     />
     <use id="triangle2" xlink:href="#triangle1" transform="scale(0.5)" />
@@ -102,12 +102,15 @@
       stroke: inherit;
     }
 
-    /* cut triangles as holes into the white background */
-    .empty {
-      fill: white;
-    }
+    /* customize fill color of triangles with color attribute of use element */
     .triangle {
+      fill: currentColor;
       stroke: none;
+    }
+
+    /* use a single color for the text */
+    text {
+      fill: #333377;
     }
   </style>
   <defs>
@@ -127,11 +130,11 @@
   <style type="text/css">
     .style1, .style2, .style3, .style4, .style5 { stroke: none; }
 
-    .style1 { fill: #2277d0; }
-    .style2 { fill: #f0f033; }
-    .style3 { fill: #c00070; }
-    .style4 { fill: #333; }
-    .style5 { fill: #e6e6e6; }
+    .style1 { fill: white; color: #2277d0; }
+    .style2 { fill: #333377; color: #f0f033; }
+    .style3 { fill: white; color: #c00070; }
+    .style4 { fill: white; color: #333; }
+    .style5 { fill: #337733; color: #e6e6e6; }
   </style>
     with a safe margin of 0.25in = 6.35mm
 
