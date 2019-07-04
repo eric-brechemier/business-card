@@ -110,7 +110,7 @@
 
     /* use a single color for the text */
     text {
-      fill: #222255;
+      fill: #222;
     }
   </style>
   <defs>
