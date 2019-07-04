@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <svg xmlns="http://www.w3.org/2000/svg"
   xmlns:xlink="http://www.w3.org/1999/xlink"
-  width="210mm"
-  height="297mm"
-  viewBox="0 0 210 297"
+  width="297mm"
+  height="210mm"
+  viewBox="0 0 297 210"
 >
   <title xml:lang="en">
     Test Sheet on A4 paper for different versions
@@ -141,40 +141,40 @@
     Note: the stroke is drawn half inward and half outward;
     position and width were offset to draw the safe margins inward only.
   -->
-  <rect id="A4" x="3.175" y="3.175" width="203.65" height="290.65"
-    stroke-width="6.35" stroke="lemonchiffon" fill="none"
-  />
-  <rect id="USletter" x="3.175" y="3.175" width="209.55" height="273.05"
-    stroke-width="6.35" stroke="azure" fill="none"
+  <rect id="A4" x="3.175" y="3.175" width="290.65" height="203.65"
+    stroke-width="6.35" stroke="peachpuff" fill="none"
   />
 
   <use xlink:href="#card-back" class="style1"
-    x="15" y="8" width="53.98" height="85.60"
+    x="6.35" y="6.35" width="53.98" height="85.60"
   />
   <use xlink:href="#card-back" class="style2"
-    x="75" y="8" width="53.98" height="85.60"
+    x="60.33" y="6.35" width="53.98" height="85.60"
   />
   <use xlink:href="#card-back" class="style3"
-    x="135" y="8" width="53.98" height="85.60"
+    x="114.31" y="6.35" width="53.98" height="85.60"
+  />
+  <use xlink:href="#card-back" class="style4"
+    x="168.29" y="6.35" width="53.98" height="85.60"
+  />
+  <use xlink:href="#card-back" class="style5"
+    x="222.27" y="6.35" width="53.98" height="85.60"
   />
 
   <use xlink:href="#card-front" class="style1"
-    x="15" y="96" width="53.98" height="85.60"
+    x="6.35" y="91.95" width="53.98" height="85.60"
   />
   <use xlink:href="#card-front" class="style2"
-    x="75" y="96" width="53.98" height="85.60"
+    x="60.33" y="91.95" width="53.98" height="85.60"
   />
   <use xlink:href="#card-front" class="style3"
-    x="135" y="96" width="53.98" height="85.60"
-  />
-
-  <use xlink:href="#card-back" class="style4"
-    x="15" y="184" width="53.98" height="85.60"
+    x="114.31" y="91.95" width="53.98" height="85.60"
   />
   <use xlink:href="#card-front" class="style4"
-    x="75" y="184" width="53.98" height="85.60"
+    x="168.29" y="91.95" width="53.98" height="85.60"
   />
-  <use xlink:href="#card-back" class="style5"
-    x="135" y="184" width="53.98" height="85.60"
+  <use xlink:href="#card-front" class="style5"
+    x="222.27" y="91.95" width="53.98" height="85.60"
   />
+
 </svg>
