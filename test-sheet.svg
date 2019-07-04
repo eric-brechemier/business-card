@@ -110,7 +110,7 @@
 
     /* use a single color for the text */
     text {
-      fill: #333377;
+      fill: #222255;
     }
   </style>
   <defs>
@@ -131,10 +131,10 @@
     .style1, .style2, .style3, .style4, .style5 { stroke: none; }
 
     .style1 { fill: white; color: #2277d0; }
-    .style2 { fill: #333377; color: #f0f033; }
+    .style2 { fill: #222255; color: #f0f033; }
     .style3 { fill: white; color: #c00070; }
     .style4 { fill: white; color: #333; }
-    .style5 { fill: #337733; color: #e6e6e6; }
+    .style5 { fill: #339933; color: #f0fff0; }
   </style>
     with a safe margin of 0.25in = 6.35mm
 
