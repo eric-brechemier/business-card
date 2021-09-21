@@ -1,22 +1,22 @@
 # business-card
-My new business card (2019)
+My new business card (2021)
 
 ## Rationale
 
-I have been using the same business card design from 2007 to 2019.
+I have been using the same business card design from 2007 to 2021.
 I had voluntarily left out my phone number and postal address,
-to make the cards timeless. Still, twelve years is a long time,
+to make the cards timeless. Still, fourteen years is a long time,
 and everything that appears on the card apart from my name has
 now become outdated:
 
 * after 15 years of work in "Software Design and Development",
-  I am now becoming a graphic designer as well as a programmer
+  I have been transitioning to Instructional Design
 
 * the card featured my name and occupation in English and in Japanese,
   and was illustrated with the drawing of a Japanese rock garden,
   in tribute to ten trips to Japan across several years of fruitful
   collaboration with Japanese companies.
-  But I have not returned to Japan in the last 10 years.
+  But I have not returned to Japan in the last 12 years.
 
 * it was a stock design and I now need a custom design
   to showcase my skills as a graphic designer
@@ -27,7 +27,9 @@ now become outdated:
 * the card includes my Skype id, but I have stopped using Skype
   after [Skype dumped me][]
 
-* my website address starts with `http` while today's Web requires `https`
+* my website address starts with `http` while today's Web requires `https`;
+  I have not updated my personal website in a long time, and I am now relying
+  mostly on my LinkedIn profile instead.
 
 [Skype dumped me]: https://github.com/eric-brechemier/how-i-replaced-skype-with-twilio/issues/1
 
@@ -38,7 +40,7 @@ or [Sierpiński triangle][]. It can be drawn in many different ways;
 here I chose to subdivide each triangle by joining the middle of each side.
 
 The back of the card reveals the continuation of the fractal shape,
-with 5 lines of text for my details nested in negative space in the
+with 4 lines of text for my details nested in negative space in the
 middle of the fractal. But only half of the fractal shape is visible
 on that side of the card, because in its growth, it has already
 expanded to twice the length of the card. This particular cropping,
