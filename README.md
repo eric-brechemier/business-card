@@ -90,6 +90,33 @@ expressed in round numbers after successive subdivisions:
 [various sizes]: https://en.wikipedia.org/wiki/Business_card#Dimensions
 [credit card size]: https://en.wikipedia.org/wiki/Credit_card#Technical_specifications
 
+## Bleed and Safe Area
+
+To account for inaccuracies during trimming of the business card to the
+target dimensions after printing, the design must be printed at a slightly
+larger, including a bleed area of a few millimeters in width. While visuals
+must be printed all the way into the bleed area, important information such
+as text must keep safe of the trim boundaries, a few millimeters away from
+the trim line on each side. The table below lists a few recommendations for
+the width of the bleed area outside the document and the safe margin within:
+
+| bleed | margin | source |
+| ----: | -----: | :----- |
+| `2mm` | `3mm`  | [Exaprint](https://blog.exaprint.fr/cadres-impression-contraintes-et-astuces/) |
+| `⅛in`  | `⅛in` | [Impactica](https://impactica.zendesk.com/hc/en-us/articles/360020899794--What-are-bleed-trim-and-safe-area-) |
+| `5mm` | `5mm`  | [Copytop](https://www.copytop.com/astuce-fichiers-pour-une-impression-parfaite) |
+
+Given that:
+
+* `⅛in` is slightly larger than 3mm.
+* Exaprint is giving *minimum* indications, but recommends to go with
+  more than 2mm of bleed and 5mm of margin for visual comfort.
+* Copytop, on the other hand, gives values safe for most usage.
+
+I am going with the largest values of 5mm of bleed and 5mm of safe margin.
+Based on Exaprint's recommendations, I should also avoid putting the vertices
+of the triangles on the trim lines, to avoid visible inaccuracies.
+
 ## License
 
 [CC-BY][] [Eric Bréchemier][ATTRIBUTION]
