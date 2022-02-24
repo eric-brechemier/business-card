@@ -105,9 +105,11 @@
     }
 
     /* only fill the smallest triangles with color attribute of use element */
+    /*
     .triangle4 {
       fill: currentColor;
     }
+    */
 
     /* use a single color for the text */
     text {
