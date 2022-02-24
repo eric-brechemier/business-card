@@ -129,13 +129,11 @@
     </symbol>
   </defs>
   <style type="text/css">
-    .style1, .style2, .style3, .style4, .style5 { stroke: none; }
-
-    .style1 { fill: white; color: #2277d0; }
-    .style2 { fill: #222255; color: #f0f033; }
-    .style3 { fill: white; color: #c00070; }
-    .style4 { fill: white; color: #333; }
-    .style5 { fill: #339933; color: #f0fff0; }
+    .style1 { stroke: none; fill: white;   color: #2277d0; }
+    .style2 { stroke: none; fill: #222255; color: #f0f033; }
+    .style3 { stroke: none; fill: white;   color: #c00070; }
+    .style4 { stroke: none; fill: white;   color: #333; }
+    .style5 { stroke: none; fill: #339933; color: #f0fff0; }
 
     .print-margin { fill: none; stroke: lightgray; }
   </style>
