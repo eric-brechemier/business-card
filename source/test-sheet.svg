@@ -137,7 +137,7 @@
     .style4 { fill: white; color: #333; }
     .style5 { fill: #339933; color: #f0fff0; }
 
-    .print-margin { fill: none; stroke: peachpuff; }
+    .print-margin { fill: none; stroke: lightgray; }
   </style>
   <!--
     make sure that the cards fit on A4 or US letter paper,
