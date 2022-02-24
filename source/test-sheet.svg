@@ -136,6 +136,8 @@
     .style3 { fill: white; color: #c00070; }
     .style4 { fill: white; color: #333; }
     .style5 { fill: #339933; color: #f0fff0; }
+
+    .print-margin { fill: none; stroke: peachpuff; }
   </style>
   <!--
     make sure that the cards fit on A4 or US letter paper,
@@ -145,7 +147,7 @@
     position and width were offset to draw the safe margins inward only.
   -->
   <rect id="A4" x="3.175" y="3.175" width="290.65" height="203.65"
-    stroke-width="6.35" stroke="peachpuff" fill="none"
+    stroke-width="6.35" class="print-margin"
   />
 
   <use xlink:href="#card-back" class="style1"
