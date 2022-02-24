@@ -111,7 +111,7 @@
 
     /* use a single color for the text */
     text {
-      fill: #222;
+      fill: black;
     }
   </style>
   <defs>
