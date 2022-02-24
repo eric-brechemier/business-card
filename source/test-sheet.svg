@@ -131,11 +131,11 @@
     </symbol>
   </defs>
   <style type="text/css">
-    .style1 { fill: white;   color: #2277d0; }
-    .style2 { fill: #222255; color: #f0f033; }
-    .style3 { fill: white;   color: #c00070; }
-    .style4 { fill: white;   color: #333; }
-    .style5 { fill: #339933; color: #f0fff0; }
+    .style1 { fill: white; color: black; }
+    .style2 { fill: white; color: #aaa; }
+    .style3 { fill: white; color: #777; }
+    .style4 { fill: white; color: #999; }
+    .style5 { fill: white; color: #222; }
 
     .print-margin { fill: none; stroke: lightgray; }
   </style>
