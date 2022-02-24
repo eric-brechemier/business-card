@@ -47,7 +47,9 @@
     <use id="triangle3" xlink:href="#triangle2" transform="scale(0.5)" />
     <use id="triangle4" xlink:href="#triangle3" transform="scale(0.5)" />
     <use id="triangle5" xlink:href="#triangle4" transform="scale(0.5)" />
-    <g id="sierpinski">
+    <g id="sierpinski"
+      transform="scale(-1 1)" transform-origin="center"
+    >
       <use xlink:href="#triangle" />
       <use xlink:href="#triangle1" />
       <g id="quarter1">

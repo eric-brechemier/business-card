@@ -40,7 +40,7 @@
 
     .text {
       font-family: "Gill Sans";
-      text-anchor: end;
+      text-anchor: start;
       dominant-baseline: text-bottom;
     }
 
@@ -64,7 +64,9 @@
     <use id="triangle3" xlink:href="#triangle2" transform="scale(0.5)" />
     <use id="triangle4" xlink:href="#triangle3" transform="scale(0.5)" />
     <use id="triangle5" xlink:href="#triangle4" transform="scale(0.5)" />
-    <g id="sierpinski">
+    <g id="sierpinski"
+      transform="scale(-1 1)" transform-origin="center"
+    >
       <use xlink:href="#triangle" class="triangle0" />
       <use xlink:href="#triangle1" class="triangle1" />
       <g id="quarter1">
@@ -119,11 +121,11 @@
     <symbol id="card-back" viewBox="0 0 6800 10800">
       <use xlink:href="#sierpinski" transform="translate(0,-5400)" />
       <use xlink:href="#sierpinski" transform="translate(0,5400)" />
-      <text x="6630" y="4050" class="name text">Eric Bréchemier</text>
-      <text x="6630" y="4725" class="email text">eric@coding.graphics</text>
-      <text x="6630" y="6075" class="phone text">+33 (0)644-643-642 (FR)</text>
-      <text x="6630" y="6750" class="phone text">+1 (272) 999-1984 (US)</text>
-      <text x="6630" y="7425" class="url text">https://coding.graphics</text>
+      <text x="300" y="4050" class="name text">Eric Bréchemier</text>
+      <text x="300" y="4725" class="email text">eric@coding.graphics</text>
+      <text x="300" y="6075" class="phone text">+33 (0)644-643-642 (FR)</text>
+      <text x="300" y="6750" class="phone text">+1 (272) 999-1984 (US)</text>
+      <text x="300" y="7425" class="url text">https://coding.graphics</text>
     </symbol>
   </defs>
   <style type="text/css">
