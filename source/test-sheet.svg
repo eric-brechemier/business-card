@@ -51,7 +51,6 @@
     .name      { font-size: 128mm; }
     .email     { font-size: 120mm; }
     .phone     { font-size: 106mm; }
-    .url       { font-size:  96mm; }
   </style>
   <defs>
     <polygon id="triangle" class="triangle"
@@ -127,7 +126,6 @@
       <text x="300" y="4725" class="email text">eric@coding.graphics</text>
       <text x="300" y="6075" class="phone text">+33 (0)644-643-642 (FR)</text>
       <text x="300" y="6750" class="phone text">+1 (272) 999-1984 (US)</text>
-      <text x="300" y="7425" class="url text">https://coding.graphics</text>
     </symbol>
   </defs>
   <style type="text/css">
