@@ -40,7 +40,7 @@ or [Sierpiński triangle][]. It can be drawn in many different ways;
 here I chose to subdivide each triangle by joining the middle of each side.
 
 The back of the card reveals the continuation of the fractal shape,
-with 4 lines of text for my details nested in negative space in the
+with lines of text for my details nested in negative space in the
 middle of the fractal. But only half of the fractal shape is visible
 on that side of the card, because in its growth, it has already
 expanded to twice the length of the card. This particular cropping,
