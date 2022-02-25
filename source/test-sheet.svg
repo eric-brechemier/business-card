@@ -123,7 +123,7 @@
       <use xlink:href="#sierpinski" transform="translate(0,-5400)" />
       <use xlink:href="#sierpinski" transform="translate(0,5400)" />
       <text x="300" y="4050" class="name text">Eric Bréchemier</text>
-      <text x="300" y="4725" class="email text">eric@coding.graphics</text>
+      <text x="300" y="4725" class="email text">eric@culture.graphics</text>
       <text x="300" y="6075" class="phone text">+33 (0)644-643-642 (FR)</text>
       <text x="300" y="6750" class="phone text">+1 (272) 999-1984 (US)</text>
     </symbol>
