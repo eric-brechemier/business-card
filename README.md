@@ -115,7 +115,10 @@ Given that:
 
 I am going with the largest values of 5mm of bleed and 5mm of safe margin.
 Based on Exaprint's recommendations, I should also avoid putting the vertices
-of the triangles on the trim lines, to avoid visible inaccuracies.
+of the triangles on the trim lines, to avoid visible inaccuracies. I will not
+heed that advice, which should not impact this design, as the shape of
+triangles will be completed mentally by the viewer even if one vertex is
+cut off, as shown in the Gestalt principle of closure.
 
 ## License
 
