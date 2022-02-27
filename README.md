@@ -82,10 +82,10 @@ expressed in round numbers after successive subdivisions:
 | subdivision | factor |
 | ----------: | -----: |
 |         `1` | `x400` |
-|       `1/2` | `x200` | 
+|       `1/2` | `x200` |
 |       `1/4` | `x100` |
 |       `1/8` |  `x50` |
-|      `1/16` |  `x25` | 
+|      `1/16` |  `x25` |
 
 [various sizes]: https://en.wikipedia.org/wiki/Business_card#Dimensions
 [credit card size]: https://en.wikipedia.org/wiki/Credit_card#Technical_specifications
