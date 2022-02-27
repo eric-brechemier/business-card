@@ -19,7 +19,7 @@ now become outdated:
   But I have not returned to Japan in the last 12 years.
 
 * it was a stock design and I now need a custom design
-  to showcase my skills as a graphic designer.
+  to showcase my graphic design skills.
 
 * I have grown tired of the custom email address used on my business cards,
   and I would rather use a new one which reflects my new occupation.
