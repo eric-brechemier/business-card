@@ -107,8 +107,9 @@
   </defs>
   <rect x="0" y="0" width="6800" height="10800" class="background frame" />
   <g color="black">
-    <use xlink:href="#sierpinski" transform="translate(0,-5400)" />
-    <use xlink:href="#sierpinski" transform="translate(0,5400)" />
+    <use xlink:href="#sierpinski" transform="translate(-6800,    0)" />
+    <use xlink:href="#sierpinski" transform="translate(    0,-5400)" />
+    <use xlink:href="#sierpinski" transform="translate(    0,+5400)" />
   </g>
   <!--text x="300" y="4050" class="name text">Eric Bréchemier</text-->
   <text x="500" y="5550" class="email text">eric@culture.graphics</text>

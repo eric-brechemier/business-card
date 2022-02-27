@@ -92,6 +92,8 @@
   <rect x="0" y="0" width="6800" height="10800" class="background frame" />
   <g color="black">
     <use xlink:href="#sierpinski" />
+    <use xlink:href="#sierpinski" transform="translate(6800,-5400)" />
+    <use xlink:href="#sierpinski" transform="translate(6800,+5400)" />
   </g>
   <g color="black">
     <text x="300" y="4750" class="role text"
