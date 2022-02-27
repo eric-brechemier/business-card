@@ -90,7 +90,9 @@
     </g>
   </defs>
   <rect x="0" y="0" width="6800" height="10800" class="background frame" />
-  <use xlink:href="#sierpinski" color="black" />
+  <g color="black">
+    <use xlink:href="#sierpinski" />
+  </g>
   <g color="black">
     <text x="300" y="4750" class="role text"
       transform="rotate(-38.45 300 4750)"
