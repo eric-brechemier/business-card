@@ -115,7 +115,21 @@ Given that:
   more than 2mm of bleed and 5mm of margin for visual comfort.
 * Copytop, on the other hand, gives values safe for most usage.
 
-I am going with the largest values of 5mm of bleed and 5mm of safe margin.
+I am familiar with the safe printing margin of `¼in` for letter US or A4
+documents. A bleed of half that dimension, ⅛in, feels appropriate for a
+much smaller business card. I prefer to use a bleed value in inches which
+can be expressed here as a full number of units, without rounding errors:
+
+```
+1 inch -> 3200 units
+⅛ inch -> 3200 / 8 = 400 units
+```
+
+I will thus add `0.125in` and `400` units on both sides of the width and
+height, i.e. `0.250in` and `800` units to each dimension. I will also shift
+the origin of the view box from 0,0 to -400,-400 to keep using the original
+coordinates unchanged for the drawing of shapes and text on the card.
+
 Based on Exaprint's recommendations, I should also avoid putting the vertices
 of the triangles on the trim lines, to avoid visible inaccuracies. I will not
 heed that advice, which should not impact this design, as the shape of
