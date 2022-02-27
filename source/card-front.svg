@@ -14,6 +14,11 @@
     * origin shifted from (0,0) to (-400,-400)
     * width = 6800 + 2 * 400 = 7600
     * height = 10800 + 2 * 400 = 11600
+
+  Scaling factor:
+  1 in = 96 px = 3200
+  which results in viewBox scaling of 96/3200 = 0.03
+  when using absolute units at the top level of the document.
   -->
   <title xml:lang="en">Front of Eric Bréchemier's Business Card</title>
   <desc xml:lang="en">
