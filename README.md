@@ -90,6 +90,8 @@ expressed in round numbers after successive subdivisions:
 [various sizes]: https://en.wikipedia.org/wiki/Business_card#Dimensions
 [credit card size]: https://en.wikipedia.org/wiki/Credit_card#Technical_specifications
 
+This results in a scale factor 8 x 400 i.e. *1 inch for 3200 units*.
+
 ## Bleed and Safe Area
 
 To account for inaccuracies during trimming of the business card to the
