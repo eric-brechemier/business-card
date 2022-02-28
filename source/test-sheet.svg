@@ -246,14 +246,18 @@
 
   <use xlink:href="#card-front" class="style1"
     x="250" y="3875" width="2375" height="3625"
+    transform="rotate(180)" transform-origin="1437.5 5687.5"
   />
   <use xlink:href="#card-front" class="style2"
     x="2625" y="3875" width="2375" height="3625"
+    transform="rotate(180)" transform-origin="3812.5 5687.5"
   />
   <use xlink:href="#card-front" class="style3"
     x="5000" y="3875" width="2375" height="3625"
+    transform="rotate(180)" transform-origin="6187.5 5687.5"
   />
   <use xlink:href="#card-front" class="style4"
     x="7375" y="3875" width="2375" height="3625"
+    transform="rotate(180)" transform-origin="8562.5 5687.5"
   />
 </svg>
