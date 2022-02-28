@@ -34,7 +34,6 @@
 
     .text {
       font-family: "Gill Sans", serif;
-      text-anchor: start;
       dominant-baseline: text-bottom;
     }
 
