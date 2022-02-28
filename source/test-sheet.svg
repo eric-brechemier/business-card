@@ -3,8 +3,12 @@
   xmlns:xlink="http://www.w3.org/1999/xlink"
   width="297mm"
   height="210mm"
-  viewBox="0 0 297 210"
+  viewBox="0 0 11693 8268"
 >
+  <!--
+  User units correspond to thousandths of inches
+  with 1 inch = 25.4 mm = 1000 user units
+  -->
   <title xml:lang="en">
     Test Sheet on A4 paper for different versions
     of Eric Bréchemier's Business Card
@@ -219,45 +223,44 @@
   </style>
   <!--
     make sure that the cards fit on A4 or US letter paper,
-    with a safe margin of 0.25in = 6.35mm
+    with a safe margin of 0.25in = 250 user units
 
     Note: the stroke is drawn half inward and half outward;
     position and width were offset to draw the safe margins inward only.
   -->
-  <rect id="A4" x="3.175" y="3.175" width="290.65" height="203.65"
-    stroke-width="6.35" class="print-margin"
+  <rect id="A4" x="125" y="125" width="11443" height="8018"
+    stroke-width="250" class="print-margin"
   />
 
   <use xlink:href="#card-back" class="style1"
-    x="6.35" y="6.35" width="53.98" height="85.60"
+    x="250" y="250" width="2125" height="3375"
   />
   <use xlink:href="#card-back" class="style2"
-    x="60.33" y="6.35" width="53.98" height="85.60"
+    x="2375" y="250" width="2125" height="3375"
   />
   <use xlink:href="#card-back" class="style3"
-    x="114.31" y="6.35" width="53.98" height="85.60"
+    x="4500" y="250" width="2125" height="3375"
   />
   <use xlink:href="#card-back" class="style4"
-    x="168.29" y="6.35" width="53.98" height="85.60"
+    x="6625" y="250" width="2125" height="3375"
   />
   <use xlink:href="#card-back" class="style5"
-    x="222.27" y="6.35" width="53.98" height="85.60"
+    x="8750" y="250" width="2125" height="3375"
   />
 
   <use xlink:href="#card-front" class="style1"
-    x="6.35" y="91.95" width="53.98" height="85.60"
+    x="250" y="3625" width="2125" height="3375"
   />
   <use xlink:href="#card-front" class="style2"
-    x="60.33" y="91.95" width="53.98" height="85.60"
+    x="2375" y="3625" width="2125" height="3375"
   />
   <use xlink:href="#card-front" class="style3"
-    x="114.31" y="91.95" width="53.98" height="85.60"
+    x="4500" y="3625" width="2125" height="3375"
   />
   <use xlink:href="#card-front" class="style4"
-    x="168.29" y="91.95" width="53.98" height="85.60"
+    x="6625" y="3625" width="2125" height="3375"
   />
   <use xlink:href="#card-front" class="style5"
-    x="222.27" y="91.95" width="53.98" height="85.60"
+    x="8750" y="3625" width="2125" height="3375"
   />
-
 </svg>
