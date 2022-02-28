@@ -212,10 +212,10 @@
     }
 
     .style1 { fill: white; color: black; }
-    .style2 { fill: white; color: #aaa; }
-    .style3 { fill: white; color: #777; }
-    .style4 { fill: white; color: #999; }
-    .style5 { fill: white; color: #222; }
+    .style2 { fill: white; color: black; }
+    .style3 { fill: white; color: black; }
+    .style4 { fill: white; color: black; }
+    .style5 { fill: white; color: black; }
   </style>
   <!--
     make sure that the cards fit on A4 or US letter paper,
