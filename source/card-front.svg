@@ -56,6 +56,10 @@
       dominant-baseline: text-bottom;
     }
 
+    /*
+      1 inch = 96px before viewPort scaling,
+      1px = 1 user unit after viewPort scaling.
+    */
     .role    { font-size: 175mm; }
     .initial { font-size: 200mm; }
 

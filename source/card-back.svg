@@ -62,6 +62,10 @@
       font-variant: small-caps;
     }
 
+    /*
+      1 inch = 96px before viewPort scaling,
+      1px = 1 user unit after viewPort scaling.
+    */
     .name      { font-size: 128mm; }
     .email     { font-size: 150mm; }
     .phone     { font-size: 120mm; }
