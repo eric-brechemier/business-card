@@ -66,11 +66,11 @@
       1 inch = 96px before viewPort scaling,
       1px = 1 user unit after viewPort scaling.
     */
-    .name      { font-size: 483.780px; }
-    .email     { font-size: 566.930px; }
-    .phone     { font-size: 453.543px; }
-    .dial-code { font-size: 415.748px; }
-    .country   { font-size: 377.953px; }
+    .name      { font-size: 480px; }
+    .email     { font-size: 570px; }
+    .phone     { font-size: 460px; }
+    .dial-code { font-size: 415px; }
+    .country   { font-size: 380px; }
 
     /* lighten parentheses and French number hyphens */
     .paren, .hyphen {
