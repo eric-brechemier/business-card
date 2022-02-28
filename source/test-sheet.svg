@@ -215,11 +215,11 @@
       color: inherit;
     }
 
-    .style1 { fill: white; color: black; }
-    .style2 { fill: white; color: black; }
-    .style3 { fill: white; color: black; }
-    .style4 { fill: white; color: black; }
-    .style5 { fill: white; color: black; }
+    .style1 { fill: none; color: black; }
+    .style2 { fill: none; color: black; }
+    .style3 { fill: none; color: black; }
+    .style4 { fill: none; color: black; }
+    .style5 { fill: none; color: black; }
   </style>
   <!--
     make sure that the cards fit on A4 or US letter paper,
