@@ -71,6 +71,10 @@
     .paren, .hyphen {
       font-family: "Johanna Nova", serif;
     }
+
+    .drawings, .texts {
+      color: black;
+    }
   </style>
   <defs>
     <polygon id="triangle" class="empty triangle"
@@ -112,42 +116,46 @@
       <use xlink:href="#quarter1" transform="translate(3400,2700)" />
     </g>
   </defs>
-  <g color="black">
-    <use xlink:href="#sierpinski" transform="translate(-6800,    0)" />
-    <use xlink:href="#sierpinski" transform="translate(    0,-5400)" />
-    <use xlink:href="#sierpinski" transform="translate(    0,+5400)" />
+  <g class="drawings">
+    <g class="left-bleed">
+      <use xlink:href="#sierpinski" transform="translate(-6800,0)" />
+    </g>
+    <use xlink:href="#sierpinski" transform="translate(0,-5400)" />
+    <use xlink:href="#sierpinski" transform="translate(0,+5400)" />
   </g>
-  <!--text x="300" y="4050" class="name text">Eric Bréchemier</text-->
-  <text x="500" y="5550" class="email text">eric@culture.graphics</text>
-  <!-- tan(α) = 5400/6800, i.e. α = arctan(27/34) ~ 38.45° -->
-  <!-- rotate around center of + sign, at offset (+122 -145) -->
-  <text x="630" y="9900" class="phone text"
-    transform="rotate(-38.45 752 9755)"
-    ><tspan class="dial-code">+33</tspan
-    > <tspan class="paren"
-    >(</tspan
-    >0<tspan class="paren"
-    >)</tspan
-    >644<tspan class="hyphen"
-    >‑</tspan
-    >643<tspan class="hyphen"
-    >‑</tspan
-    >642 <tspan class="paren"
-    >(</tspan><tspan class="country"
-    >FR</tspan><tspan class="paren"
-    >)</tspan>
-  </text>
-  <text x="750" y="1295" class="phone text"
-    transform="rotate(38.45 872 1150)"
-    ><tspan class="dial-code"
-    >+1</tspan
-    > <tspan class="paren"
-    >(</tspan
-    >272<tspan class="paren"
-    >) </tspan
-    >999–1984 <tspan class="paren"
-    >(</tspan><tspan class="country"
-    >US</tspan><tspan class="paren"
-    >)</tspan>
-  </text>
+  <g class="texts">
+    <!--text x="300" y="4050" class="name text">Eric Bréchemier</text-->
+    <text x="500" y="5550" class="email text">eric@culture.graphics</text>
+    <!-- tan(α) = 5400/6800, i.e. α = arctan(27/34) ~ 38.45° -->
+    <!-- rotate around center of + sign, at offset (+122 -145) -->
+    <text x="630" y="9900" class="phone text"
+      transform="rotate(-38.45 752 9755)"
+      ><tspan class="dial-code">+33</tspan
+      > <tspan class="paren"
+      >(</tspan
+      >0<tspan class="paren"
+      >)</tspan
+      >644<tspan class="hyphen"
+      >‑</tspan
+      >643<tspan class="hyphen"
+      >‑</tspan
+      >642 <tspan class="paren"
+      >(</tspan><tspan class="country"
+      >FR</tspan><tspan class="paren"
+      >)</tspan>
+    </text>
+    <text x="750" y="1295" class="phone text"
+      transform="rotate(38.45 872 1150)"
+      ><tspan class="dial-code"
+      >+1</tspan
+      > <tspan class="paren"
+      >(</tspan
+      >272<tspan class="paren"
+      >) </tspan
+      >999–1984 <tspan class="paren"
+      >(</tspan><tspan class="country"
+      >US</tspan><tspan class="paren"
+      >)</tspan>
+    </text>
+  </g>
 </svg>

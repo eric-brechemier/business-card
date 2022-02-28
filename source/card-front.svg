@@ -61,6 +61,10 @@
     .initial, .serif {
       font-family: "Johanna Nova", serif;
     }
+
+    .drawings, .texts {
+      color: black;
+    }
   </style>
   <defs>
     <polygon id="triangle" class="empty triangle"
@@ -102,12 +106,14 @@
       <use xlink:href="#quarter1" transform="translate(3400,2700)" />
     </g>
   </defs>
-  <g color="black">
+  <g class="drawings">
     <use xlink:href="#sierpinski" />
-    <use xlink:href="#sierpinski" transform="translate(6800,-5400)" />
-    <use xlink:href="#sierpinski" transform="translate(6800,+5400)" />
+    <g class="right-bleed">
+      <use xlink:href="#sierpinski" transform="translate(6800,-5400)" />
+      <use xlink:href="#sierpinski" transform="translate(6800,+5400)" />
+    </g>
   </g>
-  <g color="black">
+  <g class="texts">
     <text x="300" y="4750" class="role text"
       transform="rotate(-38.45 300 4750)"
       ><tspan class="initial" rotate="38.45"

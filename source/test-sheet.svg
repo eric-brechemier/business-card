@@ -59,6 +59,10 @@
     .paren, .hyphen {
       font-family: "Johanna Nova", serif;
     }
+
+    .drawings, .texts {
+      color: black;
+    }
   </style>
   <defs>
     <polygon id="triangle" class="triangle"
@@ -103,16 +107,89 @@
   <defs>
     <symbol id="card-front" viewBox="0 0 6800 10800">
       <rect x="0" y="0" width="6800" height="10800" class="background frame" />
-      <use xlink:href="#sierpinski" />
+      <g class="drawings">
+        <use xlink:href="#sierpinski" />
+        <g class="right-bleed">
+          <use xlink:href="#sierpinski" transform="translate(6800,-5400)" />
+          <use xlink:href="#sierpinski" transform="translate(6800,+5400)" />
+        </g>
+      </g>
+      <g class="texts">
+        <text x="300" y="4750" class="role text"
+          transform="rotate(-38.45 300 4750)"
+          ><tspan class="initial" rotate="38.45"
+          >I</tspan><tspan dx="340" dy="100"
+          >N</tspan><tspan dx="140"
+          >S</tspan><tspan dx="140"
+          >T</tspan><tspan dx="140"
+          >R</tspan><tspan dx="140"
+          >U</tspan><tspan dx="140" class="serif"
+          >C</tspan><tspan dx="140"
+          >T</tspan><tspan dx="140" class="serif"
+          >I</tspan><tspan dx="140"
+          >O</tspan><tspan dx="140"
+          >N</tspan><tspan dx="140"
+          >A</tspan><tspan dx="140"
+          >L</tspan>
+        </text>
+        <text x="150" y="6600" class="role text"
+          transform="rotate(38.45 200 6600)"
+          ><tspan class="initial" rotate="-38.45"
+          >D</tspan><tspan dx="190" dy="-150"
+          >E</tspan><tspan dx="500"
+          >S</tspan><tspan dx="500"
+          >I</tspan><tspan dx="500"
+          >G</tspan><tspan dx="500"
+          >N</tspan><tspan dx="500" class="serif"
+          >E</tspan><tspan dx="500" class="serif"
+          >R</tspan>
+        </text>
+      </g>
     </symbol>
     <symbol id="card-back" viewBox="0 0 6800 10800">
       <rect x="0" y="0" width="6800" height="10800" class="background frame" />
-      <use xlink:href="#sierpinski" transform="translate(0,-5400)" />
-      <use xlink:href="#sierpinski" transform="translate(0,5400)" />
-      <text x="300" y="4050" class="name text">Eric Bréchemier</text>
-      <text x="300" y="4725" class="email text">eric@culture.graphics</text>
-      <text x="300" y="6075" class="phone text">+33 (0)644-643-642 (FR)</text>
-      <text x="300" y="6750" class="phone text">+1 (272) 999-1984 (US)</text>
+      <g class="drawings">
+        <g class="left-bleed">
+          <use xlink:href="#sierpinski" transform="translate(-6800,0)" />
+        </g>
+        <use xlink:href="#sierpinski" transform="translate(0,-5400)" />
+        <use xlink:href="#sierpinski" transform="translate(0,+5400)" />
+      </g>
+      <g class="texts">
+        <!--text x="300" y="4050" class="name text">Eric Bréchemier</text-->
+        <text x="500" y="5550" class="email text">eric@culture.graphics</text>
+        <!-- tan(α) = 5400/6800, i.e. α = arctan(27/34) ~ 38.45° -->
+        <!-- rotate around center of + sign, at offset (+122 -145) -->
+        <text x="630" y="9900" class="phone text"
+          transform="rotate(-38.45 752 9755)"
+          ><tspan class="dial-code">+33</tspan
+          > <tspan class="paren"
+          >(</tspan
+          >0<tspan class="paren"
+          >)</tspan
+          >644<tspan class="hyphen"
+          >‑</tspan
+          >643<tspan class="hyphen"
+          >‑</tspan
+          >642 <tspan class="paren"
+          >(</tspan><tspan class="country"
+          >FR</tspan><tspan class="paren"
+          >)</tspan>
+        </text>
+        <text x="750" y="1295" class="phone text"
+          transform="rotate(38.45 872 1150)"
+          ><tspan class="dial-code"
+          >+1</tspan
+          > <tspan class="paren"
+          >(</tspan
+          >272<tspan class="paren"
+          >) </tspan
+          >999–1984 <tspan class="paren"
+          >(</tspan><tspan class="country"
+          >US</tspan><tspan class="paren"
+          >)</tspan>
+        </text>
+      </g>
     </symbol>
   </defs>
   <style type="text/css">
