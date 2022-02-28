@@ -60,8 +60,8 @@
       1 inch = 96px before viewPort scaling,
       1px = 1 user unit after viewPort scaling.
     */
-    .role    { font-size: 175mm; }
-    .initial { font-size: 200mm; }
+    .role    { font-size: 661.417px; }
+    .initial { font-size: 755.906px; }
 
     .initial, .serif {
       font-family: "Johanna Nova", serif;
