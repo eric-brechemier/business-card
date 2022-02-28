@@ -102,7 +102,7 @@
     </g>
   </defs>
   <defs>
-    <symbol id="card-front" viewBox="0 0 6800 10800">
+    <symbol id="card-front" viewBox="-400 -400 7600 11600">
       <rect x="0" y="0" width="6800" height="10800" class="background frame" />
       <g class="drawings">
         <use xlink:href="#sierpinski" />
@@ -143,7 +143,7 @@
         </text>
       </g>
     </symbol>
-    <symbol id="card-back" viewBox="0 0 6800 10800">
+    <symbol id="card-back" viewBox="-400 -400 7600 11600">
       <rect x="0" y="0" width="6800" height="10800" class="background frame" />
       <g class="drawings">
         <g class="left-bleed">
@@ -219,7 +219,6 @@
     .style2 { fill: none; color: black; }
     .style3 { fill: none; color: black; }
     .style4 { fill: none; color: black; }
-    .style5 { fill: none; color: black; }
   </style>
   <!--
     make sure that the cards fit on A4 or US letter paper,
@@ -233,34 +232,28 @@
   />
 
   <use xlink:href="#card-back" class="style1"
-    x="250" y="250" width="2125" height="3375"
+    x="250" y="250" width="2375" height="3625"
   />
   <use xlink:href="#card-back" class="style2"
-    x="2375" y="250" width="2125" height="3375"
+    x="2625" y="250" width="2375" height="3625"
   />
   <use xlink:href="#card-back" class="style3"
-    x="4500" y="250" width="2125" height="3375"
+    x="5000" y="250" width="2375" height="3625"
   />
   <use xlink:href="#card-back" class="style4"
-    x="6625" y="250" width="2125" height="3375"
-  />
-  <use xlink:href="#card-back" class="style5"
-    x="8750" y="250" width="2125" height="3375"
+    x="7375" y="250" width="2375" height="3625"
   />
 
   <use xlink:href="#card-front" class="style1"
-    x="250" y="3625" width="2125" height="3375"
+    x="250" y="3875" width="2375" height="3625"
   />
   <use xlink:href="#card-front" class="style2"
-    x="2375" y="3625" width="2125" height="3375"
+    x="2625" y="3875" width="2375" height="3625"
   />
   <use xlink:href="#card-front" class="style3"
-    x="4500" y="3625" width="2125" height="3375"
+    x="5000" y="3875" width="2375" height="3625"
   />
   <use xlink:href="#card-front" class="style4"
-    x="6625" y="3625" width="2125" height="3375"
-  />
-  <use xlink:href="#card-front" class="style5"
-    x="8750" y="3625" width="2125" height="3375"
+    x="7375" y="3875" width="2375" height="3625"
   />
 </svg>
