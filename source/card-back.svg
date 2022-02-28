@@ -76,12 +76,6 @@
     .paren, .hyphen {
       font-family: "Johanna Nova", serif;
     }
-
-    /* construction marks */
-    .blueprint {
-      /* fill: red; */
-      fill: none;
-    }
   </style>
   <defs>
     <polygon id="triangle" class="empty triangle"
@@ -149,7 +143,6 @@
     >FR</tspan><tspan class="paren"
     >)</tspan>
   </text>
-  <circle cx="752" cy="9755" r="30" class="blueprint" />
   <text x="750" y="1295" class="phone text"
     transform="rotate(38.45 872 1150)"
     ><tspan class="dial-code"
@@ -163,5 +156,4 @@
     >US</tspan><tspan class="paren"
     >)</tspan>
   </text>
-  <circle cx="872" cy="1150" r="30" class="blueprint" />
 </svg>
