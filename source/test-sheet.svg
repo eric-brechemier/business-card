@@ -36,6 +36,12 @@
       font-family: "Gill Sans", serif;
     }
 
+    .initial, .serif,
+    /* lighten parentheses and French number hyphens */
+    .paren, .hyphen {
+      font-family: "Johanna Nova", serif;
+    }
+
     .name {
       font-variant: small-caps;
     }
@@ -51,12 +57,6 @@
     .phone     { font-size: 460px; }
     .dial-code { font-size: 415px; }
     .country   { font-size: 380px; }
-
-    .initial, .serif,
-    /* lighten parentheses and French number hyphens */
-    .paren, .hyphen {
-      font-family: "Johanna Nova", serif;
-    }
 
     .drawings, .texts {
       color: black;

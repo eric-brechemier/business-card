@@ -55,6 +55,11 @@
       font-variant: small-caps;
     }
 
+    /* lighten parentheses and French number hyphens */
+    .paren, .hyphen {
+      font-family: "Johanna Nova", serif;
+    }
+
     /*
       1 inch = 96px before viewPort scaling,
       1px = 1 user unit after viewPort scaling.
@@ -64,11 +69,6 @@
     .phone     { font-size: 460px; }
     .dial-code { font-size: 415px; }
     .country   { font-size: 380px; }
-
-    /* lighten parentheses and French number hyphens */
-    .paren, .hyphen {
-      font-family: "Johanna Nova", serif;
-    }
 
     .drawings, .texts {
       color: black;

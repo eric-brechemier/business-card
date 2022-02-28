@@ -49,16 +49,16 @@
       font-family: "Gill Sans", serif;
     }
 
+    .initial, .serif {
+      font-family: "Johanna Nova", serif;
+    }
+
     /*
       1 inch = 96px before viewPort scaling,
       1px = 1 user unit after viewPort scaling.
     */
     .role    { font-size: 650px; }
     .initial { font-size: 750px; }
-
-    .initial, .serif {
-      font-family: "Johanna Nova", serif;
-    }
 
     .drawings, .texts {
       color: black;
