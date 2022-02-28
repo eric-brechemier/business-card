@@ -185,6 +185,11 @@
     </symbol>
   </defs>
   <style type="text/css">
+    .print-margin {
+      fill: none;
+      stroke: lightgray;
+    }
+
     .background {
       fill: none;
     }
@@ -207,8 +212,6 @@
     .style3 { fill: white; color: #777; }
     .style4 { fill: white; color: #999; }
     .style5 { fill: white; color: #222; }
-
-    .print-margin { fill: none; stroke: lightgray; }
   </style>
   <!--
     make sure that the cards fit on A4 or US letter paper,
