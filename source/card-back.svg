@@ -48,7 +48,7 @@
     .triangle {
       stroke: currentColor;
       vector-effect: non-scaling-stroke;
-      stroke-width: 0.25mm;
+      stroke-width: 0.709pt;
       stroke-linejoin: bevel;
     }
 
