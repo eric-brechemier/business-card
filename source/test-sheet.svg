@@ -73,7 +73,7 @@
     <use id="triangle4" xlink:href="#triangle3" transform="scale(0.5)" />
     <use id="triangle5" xlink:href="#triangle4" transform="scale(0.5)" />
     <g id="sierpinski"
-      transform="scale(-1 1)" transform-origin="center"
+      transform="scale(-1 1)" transform-origin="3400 5400"
     >
       <use xlink:href="#triangle" class="triangle0" />
       <use xlink:href="#triangle1" class="triangle1" />
