@@ -6,8 +6,8 @@
   viewBox="-400 -400 7600 11600"
 >
   <!--
-  width:  2⅛in + ⅛in of bleed
-  height: 3⅜in + ⅛in of bleed
+  width:  2⅛in + 2 x ⅛in of bleed
+  height: 3⅜in + 2 x ⅛in of bleed
   viewBox without bleed: 0 0 6800 10800
   viewBox with bleed:
     * origin shifted from (0,0) to (-400,-400)
