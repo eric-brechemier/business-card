@@ -42,17 +42,12 @@
       font-family: "Johanna Nova", serif;
     }
 
-    .name {
-      font-variant: small-caps;
-    }
-
     /*
       1 inch = 96px before viewPort scaling,
       1px = 1 user unit after viewPort scaling.
     */
     .role      { font-size: 650px; }
     .initial   { font-size: 750px; }
-    .name      { font-size: 480px; }
     .email     { font-size: 570px; }
     .phone     { font-size: 460px; }
     .dial-code { font-size: 415px; }
@@ -154,7 +149,6 @@
         <use xlink:href="#sierpinski" transform="translate(0,+5400)" />
       </g>
       <g class="texts">
-        <!--text x="300" y="4050" class="name text">Eric Bréchemier</text-->
         <text x="500" y="5550" class="email text">eric@culture.graphics</text>
         <!-- tan(α) = 5400/6800, i.e. α = arctan(27/34) ~ 38.45° -->
         <!-- rotate around center of + sign, at offset (+122 -145) -->
