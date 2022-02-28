@@ -207,6 +207,10 @@
     }
     */
 
+    .drawings, .texts {
+      color: inherit;
+    }
+
     .style1 { fill: white; color: black; }
     .style2 { fill: white; color: #aaa; }
     .style3 { fill: white; color: #777; }
