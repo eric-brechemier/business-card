@@ -17,13 +17,8 @@
     on cards for prototyping.
   </desc>
   <style type="text/css">
-    .empty, .background {
+    .empty {
       fill: none;
-    }
-
-    .frame {
-      stroke: #aaa;
-      stroke-width: 24;
     }
 
     text {
@@ -33,7 +28,7 @@
     .triangle {
       stroke: currentColor;
       vector-effect: non-scaling-stroke;
-      stroke-width: 0.25mm;
+      stroke-width: 0.5pt;
       stroke-linejoin: bevel;
     }
 
@@ -47,9 +42,23 @@
       font-variant: small-caps;
     }
 
-    .name      { font-size: 128mm; }
-    .email     { font-size: 120mm; }
-    .phone     { font-size: 106mm; }
+    /*
+      1 inch = 96px before viewPort scaling,
+      1px = 1 user unit after viewPort scaling.
+    */
+    .role    { font-size: 650px; }
+    .initial { font-size: 750px; }
+    .name      { font-size: 480px; }
+    .email     { font-size: 570px; }
+    .phone     { font-size: 460px; }
+    .dial-code { font-size: 415px; }
+    .country   { font-size: 380px; }
+
+    .initial, .serif,
+    /* lighten parentheses and French number hyphens */
+    .paren, .hyphen {
+      font-family: "Johanna Nova", serif;
+    }
   </style>
   <defs>
     <polygon id="triangle" class="triangle"
@@ -91,34 +100,13 @@
       <use xlink:href="#quarter1" transform="translate(3400,2700)" />
     </g>
   </defs>
-  <style type="text/css">
-    /* customize card background color through fill attribute of use element */
-    .background {
-      fill: inherit;
-    }
-
-    /* customize card border color through stroke attribute of use element */
-    .frame {
-      stroke: inherit;
-    }
-
-    /* only fill the smallest triangles with color attribute of use element */
-    /*
-    .triangle4 {
-      fill: currentColor;
-    }
-    */
-
-    /* use a single color for the text */
-    text {
-      fill: black;
-    }
-  </style>
   <defs>
     <symbol id="card-front" viewBox="0 0 6800 10800">
+      <rect x="0" y="0" width="6800" height="10800" class="background frame" />
       <use xlink:href="#sierpinski" />
     </symbol>
     <symbol id="card-back" viewBox="0 0 6800 10800">
+      <rect x="0" y="0" width="6800" height="10800" class="background frame" />
       <use xlink:href="#sierpinski" transform="translate(0,-5400)" />
       <use xlink:href="#sierpinski" transform="translate(0,5400)" />
       <text x="300" y="4050" class="name text">Eric Bréchemier</text>
@@ -128,6 +116,23 @@
     </symbol>
   </defs>
   <style type="text/css">
+    .background {
+      fill: none;
+    }
+
+    /* delimit card border in light gray */
+    .frame {
+      stroke: #aaa;
+      stroke-width: 24;
+    }
+
+    /* only fill the smallest triangles with color attribute of use element */
+    /*
+    .triangle4 {
+      fill: currentColor;
+    }
+    */
+
     .style1 { fill: white; color: black; }
     .style2 { fill: white; color: #aaa; }
     .style3 { fill: white; color: #777; }

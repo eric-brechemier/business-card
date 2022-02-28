@@ -30,13 +30,8 @@
     triangle by joining the middle of each side.
   </desc>
   <style type="text/css">
-    .empty, .background {
+    .empty {
       fill: none;
-    }
-
-    .frame {
-      stroke: #aaa;
-      stroke-width: 24;
     }
 
     text {
@@ -107,7 +102,6 @@
       <use xlink:href="#quarter1" transform="translate(3400,2700)" />
     </g>
   </defs>
-  <rect x="0" y="0" width="6800" height="10800" class="background frame" />
   <g color="black">
     <use xlink:href="#sierpinski" />
     <use xlink:href="#sierpinski" transform="translate(6800,-5400)" />
