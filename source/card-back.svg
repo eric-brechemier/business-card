@@ -49,7 +49,6 @@
 
     .text {
       font-family: "Gill Sans", serif;
-      dominant-baseline: text-bottom;
     }
 
     .name {
