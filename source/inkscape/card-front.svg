@@ -202,24 +202,50 @@
          transform="translate(3400,2700)"
          id="use37" />
     </g>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath2581">
+      <rect
+         style="fill:#ff0000;stroke-width:44.4443"
+         id="rect2583"
+         width="7600"
+         height="11600"
+         x="-400"
+         y="-400"
+         inkscape:label="clipping" />
+    </clipPath>
   </defs>
   <g
      class="drawings"
-     id="g50">
+     id="g50"
+     style="display:inline"
+     clip-path="url(#clipPath2581)">
     <use
        xlink:href="#sierpinski"
-       id="use42" />
+       id="use42"
+       x="0"
+       y="0"
+       width="100%"
+       height="100%" />
     <g
        class="right-bleed"
        id="g48">
       <use
          xlink:href="#sierpinski"
          transform="translate(6800,-5400)"
-         id="use44" />
+         id="use44"
+         x="0"
+         y="0"
+         width="100%"
+         height="100%" />
       <use
          xlink:href="#sierpinski"
-         transform="translate(6800,+5400)"
-         id="use46" />
+         transform="translate(6800,5400)"
+         id="use46"
+         x="0"
+         y="0"
+         width="100%"
+         height="100%" />
     </g>
   </g>
   <g
