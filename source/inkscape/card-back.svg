@@ -30,10 +30,28 @@
      inkscape:cy="164.04877"
      inkscape:window-width="1437"
      inkscape:window-height="855"
-     inkscape:window-x="3"
+     inkscape:window-x="0"
      inkscape:window-y="23"
      inkscape:window-maximized="0"
-     inkscape:current-layer="svg1391" />
+     inkscape:current-layer="svg1391"
+     showborder="false">
+    <sodipodi:guide
+       position="0,11600"
+       orientation="0,228"
+       id="guide2248" />
+    <sodipodi:guide
+       position="7600,11600"
+       orientation="348,0"
+       id="guide2250" />
+    <sodipodi:guide
+       position="7600,0"
+       orientation="0,-228"
+       id="guide2252" />
+    <sodipodi:guide
+       position="0,0"
+       orientation="-348,0"
+       id="guide2254" />
+  </sodipodi:namedview>
   <!--
   width:  2⅛in + 2 x ⅛in of bleed
   height: 3⅜in + 2 x ⅛in of bleed
