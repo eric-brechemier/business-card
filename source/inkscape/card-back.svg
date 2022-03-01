@@ -25,9 +25,9 @@
      inkscape:pagecheckerboard="false"
      inkscape:document-units="in"
      showgrid="false"
-     inkscape:zoom="1.2313411"
-     inkscape:cx="95.42441"
-     inkscape:cy="164.04877"
+     inkscape:zoom="0.87068964"
+     inkscape:cx="163.66337"
+     inkscape:cy="165.38614"
      inkscape:window-width="1437"
      inkscape:window-height="855"
      inkscape:window-x="0"
@@ -208,6 +208,14 @@
          id="use1340" />
     </g>
   </defs>
+  <rect
+     style="display:inline;fill:#ffff00;fill-opacity:1;stroke:none;stroke-width:44.4444;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     id="rect2670"
+     width="7600"
+     height="11600"
+     x="-400"
+     y="-400"
+     inkscape:label="frame" />
   <g
      class="drawings"
      id="g1353"
@@ -301,12 +309,4 @@
       </cc:Work>
     </rdf:RDF>
   </metadata>
-  <rect
-     style="display:inline;fill:none;stroke-width:44.44444433;stroke:#000000;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
-     id="rect2670"
-     width="7600"
-     height="11600"
-     x="-400"
-     y="-400"
-     inkscape:label="frame" />
 </svg>
