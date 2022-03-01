@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="2.375in"
+   height="3.625in"
+   viewBox="-400 -400 7600 11600"
+   version="1.1"
+   id="svg1391"
+   sodipodi:docname="card-back.svg"
+   inkscape:version="1.1 (c4e8f9e, 2021-05-24)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <sodipodi:namedview
+     id="namedview1393"
+     pagecolor="#505050"
+     bordercolor="#ffffff"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="1"
+     inkscape:document-units="in"
+     showgrid="false"
+     inkscape:zoom="0.87068966"
+     inkscape:cx="113.70297"
+     inkscape:cy="174.57426"
+     inkscape:window-width="1322"
+     inkscape:window-height="855"
+     inkscape:window-x="0"
+     inkscape:window-y="23"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg1391" />
+  <!--
+  width:  2⅛in + 2 x ⅛in of bleed
+  height: 3⅜in + 2 x ⅛in of bleed
+  viewBox without bleed: 0 0 6800 10800
+  viewBox with bleed:
+    * origin shifted from (0,0) to (-400,-400)
+    * width = 6800 + 2 * 400 = 7600
+    * height = 10800 + 2 * 400 = 11600
+
+  Scaling factor:
+  1 in = 96 px = 3200
+  which results in viewBox scaling of 96/3200 = 0.03
+  when using absolute units at the top level of the document.
+  -->
+  <title
+     xml:lang="en"
+     id="title1305">Back of Eric Bréchemier's Business Card</title>
+  <desc
+     xml:lang="en"
+     id="desc1307">
+    The back of the card reveals the continuation of the fractal shape
+    drawn on the front, with 5 lines of text for my details nested in
+    negative space in the middle of the fractal. But only half of the
+    fractal shape is visible on that side of the card, because in its
+    growth, it has already expanded to twice the length of the card.
+
+    This particular cropping, which leaves symmetrical shapes missing
+    on the top and bottom of the card, adds a layer to the visual puzzle
+    started on the front of the card.
+  </desc>
+  <style
+     type="text/css"
+     id="style1309">
+    .empty {
+      fill: none;
+    }
+
+    text {
+      fill: currentColor;
+    }
+
+    .triangle {
+      stroke: currentColor;
+      vector-effect: non-scaling-stroke;
+      stroke-width: 0.5pt;
+      stroke-linejoin: bevel;
+    }
+
+    .text {
+      font-family: &quot;Gill Sans&quot;, serif;
+    }
+
+    /* lighten parentheses and French number hyphens */
+    .paren, .hyphen {
+      font-family: &quot;Johanna Nova&quot;, serif;
+    }
+
+    /*
+      1 inch = 96px before viewPort scaling,
+      1px = 1 user unit after viewPort scaling.
+    */
+    .email     { font-size: 570px; }
+    .phone     { font-size: 460px; }
+    .dial-code { font-size: 415px; }
+    .country   { font-size: 380px; }
+
+    .drawings, .texts {
+      color: black;
+    }
+  </style>
+  <defs
+     id="defs1343">
+    <polygon
+       id="triangle"
+       class="empty triangle"
+       points="0,0 6800,5400 0,10800" />
+    <polygon
+       id="triangle1"
+       class="empty triangle"
+       points="3400,2700 3400,8100 0,5400" />
+    <use
+       id="triangle2"
+       xlink:href="#triangle1"
+       transform="scale(0.5)" />
+    <use
+       id="triangle3"
+       xlink:href="#triangle2"
+       transform="scale(0.5)" />
+    <use
+       id="triangle4"
+       xlink:href="#triangle3"
+       transform="scale(0.5)" />
+    <use
+       id="triangle5"
+       xlink:href="#triangle4"
+       transform="scale(0.5)" />
+    <g
+       id="sierpinski"
+       transform="translate(3400 5400) scale(-1 1) translate(-3400 -5400)">
+      <use
+         xlink:href="#triangle"
+         id="use1317" />
+      <use
+         xlink:href="#triangle1"
+         id="use1319" />
+      <g
+         id="quarter1">
+        <use
+           xlink:href="#triangle2"
+           id="use1321" />
+        <g
+           id="quarter2">
+          <use
+             xlink:href="#triangle3"
+             id="use1323" />
+          <g
+             id="quarter3">
+            <use
+               xlink:href="#triangle4"
+               id="use1325" />
+            <!-- and so on... but it gets too heavy
+            <g id="quarter4">
+              <use xlink:href="#triangle5" />
+            </g>
+            <use xlink:href="#quarter4" transform="translate(0,675)" />
+            <use xlink:href="#quarter4" transform="translate(425,337.5)" />
+            -->
+          </g>
+          <use
+             xlink:href="#quarter3"
+             transform="translate(0,1350)"
+             id="use1328" />
+          <use
+             xlink:href="#quarter3"
+             transform="translate(850,675)"
+             id="use1330" />
+        </g>
+        <use
+           xlink:href="#quarter2"
+           transform="translate(0,2700)"
+           id="use1333" />
+        <use
+           xlink:href="#quarter2"
+           transform="translate(1700,1350)"
+           id="use1335" />
+      </g>
+      <use
+         xlink:href="#quarter1"
+         transform="translate(0,5400)"
+         id="use1338" />
+      <use
+         xlink:href="#quarter1"
+         transform="translate(3400,2700)"
+         id="use1340" />
+    </g>
+  </defs>
+  <g
+     class="drawings"
+     id="g1353">
+    <g
+       class="left-bleed"
+       id="g1347">
+      <use
+         xlink:href="#sierpinski"
+         transform="translate(-6800,0)"
+         id="use1345" />
+    </g>
+    <use
+       xlink:href="#sierpinski"
+       transform="translate(0,-5400)"
+       id="use1349" />
+    <use
+       xlink:href="#sierpinski"
+       transform="translate(0,+5400)"
+       id="use1351" />
+  </g>
+  <g
+     class="texts"
+     id="g1389">
+    <text
+       x="500"
+       y="5550"
+       class="email text"
+       id="text1355">eric@culture.graphics</text>
+    <!-- tan(α) = 5400/6800, i.e. α = arctan(27/34) ~ 38.45° -->
+    <!-- rotate around center of + sign, at offset (+122 -145) -->
+    <text
+       x="630"
+       y="9900"
+       class="phone text"
+       transform="rotate(-38.45 752 9755)"
+       id="text1373"><tspan
+   class="dial-code"
+   id="tspan1357">+33</tspan> <tspan
+   class="paren"
+   id="tspan1359">(</tspan>0<tspan
+   class="paren"
+   id="tspan1361">)</tspan>644<tspan
+   class="hyphen"
+   id="tspan1363">‑</tspan>643<tspan
+   class="hyphen"
+   id="tspan1365">‑</tspan>642 <tspan
+   class="paren"
+   id="tspan1367">(</tspan><tspan
+   class="country"
+   id="tspan1369">FR</tspan><tspan
+   class="paren"
+   id="tspan1371">)</tspan></text>
+    <text
+       x="630"
+       y="1295"
+       class="phone text"
+       transform="rotate(38.45 872 1150)"
+       id="text1387"><tspan
+   class="dial-code"
+   id="tspan1375">+44</tspan> <tspan
+   class="paren"
+   id="tspan1377">(</tspan>0<tspan
+   class="paren"
+   id="tspan1379">)</tspan>7360‑271984 <tspan
+   class="paren"
+   id="tspan1381">(</tspan><tspan
+   class="country"
+   id="tspan1383">UK</tspan><tspan
+   class="paren"
+   id="tspan1385">)</tspan></text>
+  </g>
+  <metadata
+     id="metadata1475">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:title>Back of Eric Bréchemier's Business Card</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>
