@@ -3,3 +3,6 @@
 
 # ignore macOS thumbnails
 .DS_Store
+
+# ignore Scribus temporary file
+*_autosave_*.sla
