@@ -131,13 +131,13 @@
     <text x="360" y="5620" class="role text"
       transform="rotate(38.45 360 5620)"
       ><tspan class="initial" rotate="-38.45" dy="240"
-      >D</tspan><tspan dx="-150" dy="30"
-      >E</tspan><tspan dx="100"
-      >S</tspan><tspan dx="100"
-      >I</tspan><tspan dx="100"
-      >G</tspan><tspan dx="100"
-      >N</tspan><tspan dx="100" class="serif"
-      >E</tspan><tspan dx="100" class="serif"
+      >D</tspan><tspan dx="-140" dy="-200"
+      >E</tspan><tspan dx="115"
+      >S</tspan><tspan dx="115"
+      >I</tspan><tspan dx="115"
+      >G</tspan><tspan dx="115"
+      >N</tspan><tspan dx="115" class="serif"
+      >E</tspan><tspan dx="115" class="serif"
       >R</tspan>
     </text>
   </g>
