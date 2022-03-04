@@ -111,10 +111,10 @@
     </g>
   </g>
   <g class="texts">
-    <text x="300" y="4750" class="role text"
-      transform="rotate(-38.45 300 4750)"
+    <text x="360" y="5620" class="role text"
+      transform="rotate(-38.45 360 5620)"
       ><tspan class="initial" rotate="38.45"
-      >I</tspan><tspan dx="340" dy="100"
+      >I</tspan><tspan dx="340" dy="110"
       >N</tspan><tspan dx="140"
       >S</tspan><tspan dx="140"
       >T</tspan><tspan dx="140"
@@ -128,16 +128,16 @@
       >A</tspan><tspan dx="140"
       >L</tspan>
     </text>
-    <text x="150" y="6600" class="role text"
-      transform="rotate(38.45 200 6600)"
-      ><tspan class="initial" rotate="-38.45"
-      >D</tspan><tspan dx="190" dy="-150"
-      >E</tspan><tspan dx="500"
-      >S</tspan><tspan dx="500"
-      >I</tspan><tspan dx="500"
-      >G</tspan><tspan dx="500"
-      >N</tspan><tspan dx="500" class="serif"
-      >E</tspan><tspan dx="500" class="serif"
+    <text x="360" y="5620" class="role text"
+      transform="rotate(38.45 360 5620)"
+      ><tspan class="initial" rotate="-38.45" dy="240"
+      >D</tspan><tspan dx="-150" dy="30"
+      >E</tspan><tspan dx="100"
+      >S</tspan><tspan dx="100"
+      >I</tspan><tspan dx="100"
+      >G</tspan><tspan dx="100"
+      >N</tspan><tspan dx="100" class="serif"
+      >E</tspan><tspan dx="100" class="serif"
       >R</tspan>
     </text>
   </g>
