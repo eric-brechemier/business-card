@@ -104,6 +104,9 @@
     </g>
   </defs>
   <rect x="0" y="0" width="6800" height="10800"
+    fill="none" stroke="yellow" stroke-width="800"
+  />
+  <rect x="0" y="0" width="6800" height="10800"
     fill="none" stroke="#aaa" stroke-width="24"
   />
   <g class="drawings">
