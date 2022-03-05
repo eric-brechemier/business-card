@@ -106,6 +106,9 @@
   <rect x="0" y="0" width="6800" height="10800"
     fill="none" stroke="yellow" stroke-width="800"
   />
+  <rect x="100" y="100" width="6600" height="10600"
+    fill="none" stroke="#faa" stroke-width="200"
+  />
   <rect x="0" y="0" width="6800" height="10800"
     fill="none" stroke="#aaa" stroke-width="24"
   />
