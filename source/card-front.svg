@@ -103,6 +103,9 @@
       <use xlink:href="#quarter1" transform="translate(3400,2700)" />
     </g>
   </defs>
+  <rect x="0" y="0" width="6800" height="10800"
+    fill="none" stroke="#aaa" stroke-width="24"
+  />
   <g class="drawings">
     <use xlink:href="#sierpinski" />
     <g class="right-bleed">
