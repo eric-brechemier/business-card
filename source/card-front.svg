@@ -128,9 +128,9 @@
       >A</tspan><tspan dx="200"
       >L</tspan>
     </text>
-    <text x="360" y="6140" class="role text"
-      transform="rotate(38.45 360 6140)"
-      ><tspan class="initial" rotate="-38.45" dy="200"
+    <text x="240" y="6320" class="role text"
+      transform="rotate(38.45 240 6320)"
+      ><tspan class="initial" rotate="-38.45"
       >D</tspan><tspan dx="-30" dy="-110"
       >E</tspan><tspan dx="200"
       >S</tspan><tspan dx="200"
