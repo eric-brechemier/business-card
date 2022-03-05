@@ -111,8 +111,8 @@
     </g>
   </g>
   <g class="texts">
-    <text x="360" y="5220" class="role text"
-      transform="rotate(-38.45 360 5220)"
+    <text x="360" y="5000" class="role text"
+      transform="rotate(-38.45 360 5000)"
       ><tspan class="initial" rotate="38.45"
       >I</tspan><tspan dx="360" dy="110"
       >N</tspan><tspan dx="200"
@@ -128,8 +128,8 @@
       >A</tspan><tspan dx="200"
       >L</tspan>
     </text>
-    <text x="360" y="5920" class="role text"
-      transform="rotate(38.45 360 5920)"
+    <text x="360" y="6140" class="role text"
+      transform="rotate(38.45 360 6140)"
       ><tspan class="initial" rotate="-38.45" dy="240"
       >D</tspan><tspan dx="-30" dy="-200"
       >E</tspan><tspan dx="200"
