@@ -4,7 +4,7 @@
    height="3.625in"
    viewBox="-400 -400 7600 11600"
    version="1.1"
-   id="svg100"
+   id="svg1233"
    sodipodi:docname="card-front.svg"
    inkscape:version="1.1 (c4e8f9e, 2021-05-24)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
@@ -16,43 +16,24 @@
    xmlns:cc="http://creativecommons.org/ns#"
    xmlns:dc="http://purl.org/dc/elements/1.1/">
   <sodipodi:namedview
-     id="namedview102"
+     id="namedview1235"
      pagecolor="#ffffff"
-     bordercolor="#aaaaaa"
+     bordercolor="#ffffff"
      borderopacity="1"
      inkscape:pageshadow="0"
      inkscape:pageopacity="0"
      inkscape:pagecheckerboard="false"
      inkscape:document-units="in"
      showgrid="false"
-     inkscape:zoom="0.7183908"
-     inkscape:cx="119.016"
-     inkscape:cy="167.736"
-     inkscape:window-width="1295"
-     inkscape:window-height="842"
-     inkscape:window-x="16"
+     inkscape:zoom="0.68881954"
+     inkscape:cx="36.293976"
+     inkscape:cy="296.15885"
+     inkscape:window-width="1440"
+     inkscape:window-height="855"
+     inkscape:window-x="6"
      inkscape:window-y="23"
      inkscape:window-maximized="0"
-     inkscape:current-layer="svg100"
-     showborder="false"
-     inkscape:showpageshadow="true">
-    <sodipodi:guide
-       position="0,11600"
-       orientation="0,228"
-       id="guide2311" />
-    <sodipodi:guide
-       position="7600,11600"
-       orientation="348,0"
-       id="guide2313" />
-    <sodipodi:guide
-       position="7600,0"
-       orientation="0,-228"
-       id="guide2315" />
-    <sodipodi:guide
-       position="0,0"
-       orientation="-348,0"
-       id="guide2317" />
-  </sodipodi:namedview>
+     inkscape:current-layer="svg1233" />
   <!--
   width:  2⅛in + 2 x ⅛in of bleed
   height: 3⅜in + 2 x ⅛in of bleed
@@ -69,10 +50,10 @@
   -->
   <title
      xml:lang="en"
-     id="title2">Front of Eric Bréchemier's Business Card</title>
+     id="title1135">Front of Eric Bréchemier's Business Card</title>
   <desc
      xml:lang="en"
-     id="desc4">
+     id="desc1137">
     The front of the card features a fractal shape called
     Sierpiński Sieve or Sierpiński triangle.
 
@@ -82,7 +63,7 @@
   </desc>
   <style
      type="text/css"
-     id="style6">
+     id="style1139">
     .empty {
       fill: none;
     }
@@ -118,7 +99,7 @@
     }
   </style>
   <defs
-     id="defs40">
+     id="defs1173">
     <polygon
        id="triangle"
        class="empty triangle"
@@ -148,25 +129,25 @@
        transform="translate(3400 5400) scale(-1 1) translate(-3400 -5400)">
       <use
          xlink:href="#triangle"
-         id="use14" />
+         id="use1147" />
       <use
          xlink:href="#triangle1"
-         id="use16" />
+         id="use1149" />
       <g
          id="quarter1">
         <use
            xlink:href="#triangle2"
-           id="use18" />
+           id="use1151" />
         <g
            id="quarter2">
           <use
              xlink:href="#triangle3"
-             id="use20" />
+             id="use1153" />
           <g
              id="quarter3">
             <use
                xlink:href="#triangle4"
-               id="use22" />
+               id="use1155" />
             <!-- and so on... but it gets too heavy
             <g id="quarter4">
               <use xlink:href="#triangle5" />
@@ -178,33 +159,33 @@
           <use
              xlink:href="#quarter3"
              transform="translate(0,1350)"
-             id="use25" />
+             id="use1158" />
           <use
              xlink:href="#quarter3"
              transform="translate(850,675)"
-             id="use27" />
+             id="use1160" />
         </g>
         <use
            xlink:href="#quarter2"
            transform="translate(0,2700)"
-           id="use30" />
+           id="use1163" />
         <use
            xlink:href="#quarter2"
            transform="translate(1700,1350)"
-           id="use32" />
+           id="use1165" />
       </g>
       <use
          xlink:href="#quarter1"
          transform="translate(0,5400)"
-         id="use35" />
+         id="use1168" />
       <use
          xlink:href="#quarter1"
          transform="translate(3400,2700)"
-         id="use37" />
+         id="use1170" />
     </g>
   </defs>
   <rect
-     style="fill:#ffff00;stroke:none;stroke-width:44.4444;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;fill-opacity:1"
+     style="fill:#ffff00;fill-opacity:1;stroke:none;stroke-width:44.4444;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
      id="rect2579"
      width="7600"
      height="11600"
@@ -213,104 +194,91 @@
      inkscape:label="frame" />
   <g
      class="drawings"
-     id="g50"
-     style="display:inline">
+     id="g1183">
     <use
        xlink:href="#sierpinski"
-       id="use42"
-       x="0"
-       y="0"
-       width="100%"
-       height="100%" />
+       id="use1175" />
     <g
        class="right-bleed"
-       id="g48">
+       id="g1181">
       <use
          xlink:href="#sierpinski"
          transform="translate(6800,-5400)"
-         id="use44"
-         x="0"
-         y="0"
-         width="100%"
-         height="100%" />
+         id="use1177" />
       <use
          xlink:href="#sierpinski"
-         transform="translate(6800,5400)"
-         id="use46"
-         x="0"
-         y="0"
-         width="100%"
-         height="100%" />
+         transform="translate(6800,+5400)"
+         id="use1179" />
     </g>
   </g>
   <g
      class="texts"
-     id="g98">
+     id="g1231">
     <text
-       x="300"
-       y="4750"
+       x="250"
+       y="4800"
        class="role text"
-       transform="rotate(-38.45,300,4750)"
-       id="text78"><tspan
+       transform="rotate(-38.45 250 4800)"
+       id="text1211"><tspan
          class="initial"
-         rotate="38.450001"
-         id="tspan52">I</tspan><tspan
+         rotate="38.45"
+         id="tspan1185">I</tspan><tspan
          dx="340"
-         dy="100"
-         id="tspan54">N</tspan><tspan
-         dx="140"
-         id="tspan56">S</tspan><tspan
-         dx="140"
-         id="tspan58">T</tspan><tspan
-         dx="140"
-         id="tspan60">R</tspan><tspan
-         dx="140"
-         id="tspan62">U</tspan><tspan
-         dx="140"
+         dy="150"
+         id="tspan1187">N</tspan><tspan
+         dx="150"
+         id="tspan1189">S</tspan><tspan
+         dx="150"
+         id="tspan1191">T</tspan><tspan
+         dx="150"
+         id="tspan1193">R</tspan><tspan
+         dx="150"
+         id="tspan1195">U</tspan><tspan
+         dx="150"
          class="serif"
-         id="tspan64">C</tspan><tspan
-         dx="140"
-         id="tspan66">T</tspan><tspan
-         dx="140"
+         id="tspan1197">C</tspan><tspan
+         dx="150"
+         id="tspan1199">T</tspan><tspan
+         dx="150"
          class="serif"
-         id="tspan68">I</tspan><tspan
-         dx="140"
-         id="tspan70">O</tspan><tspan
-         dx="140"
-         id="tspan72">N</tspan><tspan
-         dx="140"
-         id="tspan74">A</tspan><tspan
-         dx="140"
-         id="tspan76">L</tspan></text>
+         id="tspan1201">I</tspan><tspan
+         dx="150"
+         id="tspan1203">O</tspan><tspan
+         dx="150"
+         id="tspan1205">N</tspan><tspan
+         dx="150"
+         id="tspan1207">A</tspan><tspan
+         dx="150"
+         id="tspan1209">L</tspan></text>
     <text
-       x="150"
-       y="6600"
+       x="250"
+       y="6525"
        class="role text"
-       transform="rotate(38.45,200,6600)"
-       id="text96"><tspan
+       transform="rotate(38.45 250 6525)"
+       id="text1229"><tspan
          class="initial"
-         rotate="-38.450001"
-         id="tspan80">D</tspan><tspan
-         dx="190"
-         dy="-150"
-         id="tspan82">E</tspan><tspan
-         dx="500"
-         id="tspan84">S</tspan><tspan
-         dx="500"
-         id="tspan86">I</tspan><tspan
-         dx="500"
-         id="tspan88">G</tspan><tspan
-         dx="500"
-         id="tspan90">N</tspan><tspan
-         dx="500"
+         rotate="-38.45"
+         id="tspan1213">D</tspan><tspan
+         dx="-75"
+         dy="-110"
+         id="tspan1215">E</tspan><tspan
+         dx="150"
+         id="tspan1217">S</tspan><tspan
+         dx="150"
+         id="tspan1219">I</tspan><tspan
+         dx="150"
+         id="tspan1221">G</tspan><tspan
+         dx="150"
+         id="tspan1223">N</tspan><tspan
+         dx="150"
          class="serif"
-         id="tspan92">E</tspan><tspan
-         dx="500"
+         id="tspan1225">E</tspan><tspan
+         dx="150"
          class="serif"
-         id="tspan94">R</tspan></text>
+         id="tspan1227">R</tspan></text>
   </g>
   <metadata
-     id="metadata919">
+     id="metadata1317">
     <rdf:RDF>
       <cc:Work
          rdf:about="">
