@@ -1,5 +1,7 @@
 # business-card
-My new business card (2022)
+My [new business card][PDF] (2022)
+
+[PDF]: https://github.com/eric-brechemier/business-card/raw/master/business-card.pdf
 
 ## Rationale
 
